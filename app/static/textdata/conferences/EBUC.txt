@@ -1,0 +1,10 @@
+<option selected value="base">Please Select</option>
+<option value="CMNC">Central Minas Conference</option>
+<option value="EMNC">East Minas Conference</option>
+<option value="ESSC">Espirito Santo Conference</option>
+<option value="NOMI">North Minas Mission</option>
+<option value="RDJC">Rio de Janeiro Conference</option>
+<option value="RFUC">Rio Fluminense Conference</option>
+<option value="SOES">South Espirito Santo Conference</option>
+<option value="SMNC">South Minas Conference</option>
+<option value="SRJC">South Rio Conference</option>

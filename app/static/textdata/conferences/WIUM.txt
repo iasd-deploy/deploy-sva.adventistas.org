@@ -1,0 +1,11 @@
+<option selected value="base">Please Select</option>
+<option value="CJAV">Central Java Mission</option>
+<option value="CSUM">Central Sumatra Mission</option>
+<option value="EJVC">East Java Conference</option>
+<option value="EKLM">East Kalimantan Mission</option>
+<option value="JAKC">Jakarta Conference</option>
+<option value="NSUM">North Sumatra Mission</option>
+<option value="NTEM">Nusa Tenggara Mission</option>
+<option value="SSUM">South Sumatra Mission</option>
+<option value="WJVC">West Java Conference</option>
+<option value="WKLM">West Kalimantan Region</option>

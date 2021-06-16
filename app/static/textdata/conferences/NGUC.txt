@@ -1,0 +1,5 @@
+<option selected value="base">Please Select</option>
+<option value="CGRC">Berlin-Central German Conference</option>
+<option value="HANC">Hansa Conference</option>
+<option value="LSXC">Lower Saxonian Conference</option>
+<option value="NRWC">Northern Rhenish-Westfalian Conference</option>

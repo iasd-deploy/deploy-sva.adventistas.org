@@ -1,0 +1,6 @@
+<option selected value="base">Please Select</option>
+<option value="CUCD">Central Conference</option>
+<option value="ORIE">Del Amanecer Conference</option>
+<option value="CUED">East Conference</option>
+<option value="PINA">Pinarena Mission</option>
+<option value="CUWD">West Conference</option>

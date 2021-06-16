@@ -1,0 +1,4 @@
+<option selected value="base">Please Select</option>
+<option value="EPOC">East Polish Conference</option>
+<option value="SPOC">South Polish Conference</option>
+<option value="WPOC">West Polish Conference</option>

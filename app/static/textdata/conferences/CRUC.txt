@@ -1,0 +1,11 @@
+<option selected value="base">Please Select</option>
+<option value="ECRC">East Caribbean Conference</option>
+<option value="GRNM">Grenada Conference</option>
+<option value="GUYC">Guyana Conference</option>
+<option value="NCRC">North Caribbean Conference</option>
+<option value="SCRC">South Caribbean Conference</option>
+<option value="SLEE">South Leeward Conference</option>
+<option value="STLM">St. Lucia Mission</option>
+<option value="STVI">St. Vincent and the Grenadines Mission</option>
+<option value="SURM">Suriname Mission</option>
+<option value="TOBA">Tobago Mission</option>

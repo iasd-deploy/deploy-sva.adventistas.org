@@ -1,0 +1,10 @@
+<option selected value="base">Please Select</option>
+<option value="CPAR">Central Parana Conference</option>
+<option value="CSRG">Central Rio Grande do Sul Conference</option>
+<option value="NPAC">North Parana Conference</option>
+<option value="WRGSM">North Rio Grande do Sul Mission</option>
+<option value="NOSC">North Santa Catarina Conference</option>
+<option value="RGSC">Rio Grande do Sul Conference</option>
+<option value="SCTC">Santa Catarina Conference</option>
+<option value="SPRC">South Parana Conference</option>
+<option value="WEPA">West Parana Conference</option>

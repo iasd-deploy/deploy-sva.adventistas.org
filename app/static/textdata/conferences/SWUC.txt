@@ -1,0 +1,6 @@
+<option selected value="base">Please Select</option>
+<option value="ARLC">Arkansas-Louisiana Conference</option>
+<option value="OKLC">Oklahoma Conference</option>
+<option value="SWRC">Southwest Region Conference</option>
+<option value="TXSC">Texas Conference</option>
+<option value="TXCC">Texico Conference</option>

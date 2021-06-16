@@ -1,0 +1,10 @@
+<option selected value="base">Please Select</option>
+<option value="AMSA">American Samoa Region</option>
+<option value="FIJM">Fiji Mission</option>
+<option value="KRBM">Kiribati Mission</option>
+<option value="NIUE">Niue Field Station</option>
+<option value="SAMM">Samoa-Tokelau Mission</option>
+<option value="SOIM">Solomon Islands Mission</option>
+<option value="TGNM">Tonga Mission</option>
+<option value="TUVF">Tuvalu Region</option>
+<option value="VNTM">Vanuatu Mission</option>

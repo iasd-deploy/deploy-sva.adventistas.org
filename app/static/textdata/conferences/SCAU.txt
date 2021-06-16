@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="CACR">Caribbean Costa Rica Mission</option>
+<option value="NICM">Central Nicaragua Mission</option>
+<option value="NOCR">North Costa Rica Mission</option>
+<option value="NWNI">Northwestern Nicaragua Mission</option>
+<option value="SATL">South Atlantic Nicaragua Mission</option>
+<option value="CORM">South-Central Costa Rica Conference</option>

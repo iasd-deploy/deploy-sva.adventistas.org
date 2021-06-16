@@ -1,0 +1,6 @@
+<option selected value="base">Please Select</option>
+<option value="ALPA">Alappuzha-Pathanamthitta Section</option>
+<option value="IDUR">Idukki Section</option>
+<option value="MLBR">Malabar Region</option>
+<option value="NKES">North Kerala Section</option>
+<option value="SKES">South Kerala Section</option>

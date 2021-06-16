@@ -1,0 +1,8 @@
+<option selected value="base">Please Select</option>
+<option value="ARZC">The Arizona Conference Corporation of Seventh-day Adventists</option>
+<option value="CCAC">Central California Conference of Seventh-day Adventists</option>
+<option value="HWIC">Hawaii Conference</option>
+<option value="NVUC">Nevada-Utah Conference</option>
+<option value="NCAC">Northern California Conference of Seventh-day Adventists</option>
+<option value="SECC">Southeastern California Conference</option>
+<option value="SCAC">Southern California Conference</option>

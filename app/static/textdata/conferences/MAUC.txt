@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="CSTC">Central States Conference</option>
+<option value="DAKC">Dakota Conference</option>
+<option value="IWMC">Iowa-Missouri Conference</option>
+<option value="KSNC">Kansas-Nebraska Conference</option>
+<option value="MINC">Minnesota Conference</option>
+<option value="RMTC">Rocky Mountain Conference</option>

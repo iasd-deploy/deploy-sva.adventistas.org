@@ -1,0 +1,6 @@
+<option selected value="base">Please Select</option>
+<option value="CVDM">Cabo Verde Conference</option>
+<option value="GBMS">Gambia Region</option>
+<option value="GUBM">Guinea-Bissau Mission</option>
+<option value="MALM">Mali Mission</option>
+<option value="SMAM">Senegal/Mauritania Mission</option>

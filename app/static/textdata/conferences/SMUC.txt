@@ -1,0 +1,9 @@
+<option selected value="base">Please Select</option>
+<option value="CCPC">Central Chiapas Conference</option>
+<option value="GRVA">Grijalva Conference</option>
+<option value="NCHC">North Chiapas Conference</option>
+<option value="PALQ">Palenque Mission</option>
+<option value="SCNC">Soconusco Conference</option>
+<option value="SCHI">South Chiapas Conference</option>
+<option value="UPCH">Upper Chiapas Conference</option>
+<option value="WCHI">West Chiapas Conference</option>

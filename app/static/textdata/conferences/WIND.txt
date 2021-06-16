@@ -1,0 +1,9 @@
+<option selected value="base">Please Select</option>
+<option value="MHRS">Central Maharashtra Conference</option>
+<option value="GUJC">Gujarat Conference</option>
+<option value="MMBR">Mumbai Metro Section</option>
+<option value="NMHR">North Maharashtra Section</option>
+<option value="SAUR">Saurashtra Region</option>
+<option value="SOGJ">South Gujarat Region</option>
+<option value="SMAH">South Maharashtra Section</option>
+<option value="VIDH">Vidarbha Region (Nagpur)</option>

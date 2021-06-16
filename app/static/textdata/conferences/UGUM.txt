@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="CUGF">Central Uganda Conference</option>
+<option value="EUGF">Eastern Uganda Field</option>
+<option value="NUGM">Northern Uganda Field</option>
+<option value="SWUF">Rwenzori Field</option>
+<option value="UGAM">Southwestern Uganda Field</option>
+<option value="WUGF">Western Uganda Field</option>

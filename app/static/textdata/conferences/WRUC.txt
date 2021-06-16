@@ -1,0 +1,8 @@
+<option selected value="base">Please Select</option>
+<option value="WRCC">Central Conference</option>
+<option value="MOWM">Moscow Conference</option>
+<option value="RNWC">Northwestern Conference</option>
+<option value="WRSC">Southern Conference</option>
+<option value="URLC">Ural Conference</option>
+<option value="VLGC">Volga Conference</option>
+<option value="VVYC">Volgo-Vyatskaya Conference</option>

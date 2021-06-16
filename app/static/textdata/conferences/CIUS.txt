@@ -1,0 +1,15 @@
+<option selected value="base">Please Select</option>
+<option value="ADIL">Adilabad Region</option>
+<option value="NWAR">East Telangana Section</option>
+<option value="GUNT">Guntur Region</option>
+<option value="HDMR">Hyderabad Metro Section</option>
+<option value="NADS">North Andhra Section</option>
+<option value="NOOR">North Orissa Region</option>
+<option value="NRAR">North Rayalaseema Section</option>
+<option value="NEAR">Northeast Andhra Section</option>
+<option value="ORSR">Orissa Section</option>
+<option value="SADS">South Andhra Section</option>
+<option value="SRYR">South Rayalaseema Section</option>
+<option value="SEAS">Southeast Andhra Section</option>
+<option value="VHKM">Vishaka Metro Region</option>
+<option value="WADS">West Telangana Section</option>

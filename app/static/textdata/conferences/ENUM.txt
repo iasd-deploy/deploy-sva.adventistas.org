@@ -1,0 +1,17 @@
+<option selected value="base">Please Select</option>
+<option value="ENGC">Aba East Conference</option>
+<option value="ABAN">Aba North Conference</option>
+<option value="ABAS">Aba South Conference</option>
+<option value="ABWE">Aba West Mission</option>
+<option value="ECNM">Abia North-Central Conference</option>
+<option value="AKIB">Akwa Ibom Conference</option>
+<option value="ANAM">Anambra Mission</option>
+<option value="BAYE">Bayelsa Mission</option>
+<option value="NSEM">Cross River Conference</option>
+<option value="EBON">Ebonyi Conference</option>
+<option value="ENEB">Enugu Conference</option>
+<option value="ANIM">Imo Conference</option>
+<option value="NCRR">Northern Cross River Mission</option>
+<option value="RVSC">Port Harcourt Conference</option>
+<option value="RIEA">Rivers East Conference</option>
+<option value="WERI">Rivers West Conference</option>

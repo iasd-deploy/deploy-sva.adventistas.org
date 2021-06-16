@@ -1,0 +1,6 @@
+<option selected value="base">Please Select</option>
+<option value="CHAM">Central Haiti Conference</option>
+<option value="NHAM">North Haiti Mission</option>
+<option value="NWHM">Northwest Haiti Mission</option>
+<option value="PLSA">Plaine du cul de Sac Mission</option>
+<option value="SHAM">South Haiti Mission</option>

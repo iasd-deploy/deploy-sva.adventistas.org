@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="KYRC">Kyrgyzstan Mission</option>
+<option value="NKZC">Northern Kazakhstan Mission</option>
+<option value="SKZC">Southern Kazakhstan Mission</option>
+<option value="TJKM">Tajikistan Field</option>
+<option value="TRKM">Turkmenistan Field</option>
+<option value="UZBM">Uzbekistan Field</option>

@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="CNYF">Central Nyanza Conference</option>
+<option value="WKYF">Greater Rift Valley Conference</option>
+<option value="KYLF">Kenya Lake Conference</option>
+<option value="LVIC">Lake Victoria Field</option>
+<option value="NWKE">North West Kenya Conference</option>
+<option value="RANF">Ranen Conference</option>

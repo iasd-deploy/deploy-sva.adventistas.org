@@ -1,0 +1,8 @@
+<option selected value="base">Please Select</option>
+<option value="ALBC">Alberta Conference</option>
+<option value="BCOC">British Columbia Conference</option>
+<option value="MSKC">Manitoba-Saskatchewan Conference</option>
+<option value="MRTC">Maritime Conference of the Seventh-day Adventist Church, Inc.</option>
+<option value="ONTC">Ontario Conference</option>
+<option value="QUBC">Quebec Conference</option>
+<option value="NWFL">SDA Church in Newfoundland and Labrador</option>

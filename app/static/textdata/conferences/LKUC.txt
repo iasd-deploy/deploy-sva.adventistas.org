@@ -1,0 +1,6 @@
+<option selected value="base">Please Select</option>
+<option value="ILNC">Illinois Conference</option>
+<option value="INDC">Indiana Conference</option>
+<option value="LKRC">Lake Region Conference</option>
+<option value="MICC">Michigan Conference</option>
+<option value="WISC">Wisconsin Conference</option>

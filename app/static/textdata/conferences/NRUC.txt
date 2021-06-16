@@ -1,0 +1,4 @@
+<option selected value="base">Please Select</option>
+<option value="ENWC">East Norway Conference</option>
+<option value="NNWC">North Norway Conference</option>
+<option value="WNWC">West Norway Conference</option>

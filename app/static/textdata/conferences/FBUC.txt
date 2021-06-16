@@ -1,0 +1,4 @@
+<option selected value="base">Please Select</option>
+<option value="BLXC">Belgian-Luxembourg Conference</option>
+<option value="NFRC">North France Conference</option>
+<option value="SFRC">South France Conference</option>

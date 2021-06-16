@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="CKVA">Central Kivu Field</option>
+<option value="KIBI">Kibali Ituri Mission</option>
+<option value="MANI">Maniema Mission</option>
+<option value="NKVA">North Kivu Field</option>
+<option value="SKVF">South Kivu Field</option>
+<option value="UCGF">Upper Congo Field</option>

@@ -1,0 +1,10 @@
+<option selected value="base">Please Select</option>
+<option value="CECO">Central Colombian Conference</option>
+<option value="CLLB">East Los Llanos Conference</option>
+<option value="NWBO">Northwestern Bogota and Boyaca Mission</option>
+<option value="PCLC">Pacific Colombian Conference</option>
+<option value="SOAN">South Andean Mission</option>
+<option value="SBOG">South Bogota Conference</option>
+<option value="SCOL">South Colombian Conference</option>
+<option value="SOPA">South Pacific Mission</option>
+<option value="UMGC">Upper Magdalena Conference</option>

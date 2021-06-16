@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="BNGM">Bangalore Metro Conference</option>
+<option value="GWKR">Goa-West Karnataka Section</option>
+<option value="CHNK">Kolar-Chinthamani Region</option>
+<option value="NKAR">North Karnataka Section</option>
+<option value="RBEL">Raichur-Bellary Region</option>
+<option value="SKAS">South Karnataka Section</option>

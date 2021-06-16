@@ -1,0 +1,11 @@
+<option selected value="base">Please Select</option>
+<option value="CMLC">Central Malagasy Conference</option>
+<option value="EAMA">East Malagasy Conference</option>
+<option value="MRSC">Mauritius Conference</option>
+<option value="MAYT">Mayotte Field Station</option>
+<option value="NMAN">North Malagasy Conference</option>
+<option value="NMMA">North West Malagasy Conference</option>
+<option value="REUC">Reunion Conference</option>
+<option value="SEYM">Seychelles Mission</option>
+<option value="SMLM">South East Malagasy Conference</option>
+<option value="SWMG">South West Malagasy Conference</option>
