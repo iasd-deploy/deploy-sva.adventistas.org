@@ -9,7 +9,6 @@ session_start();
 // Defines
 define('ROOT_DIR', realpath(dirname(__FILE__)) .'/');
 define('APP_DIR', ROOT_DIR .'application/');
-
 // Includes
 require_once(APP_DIR .'config/config.php');
 require_once(ROOT_DIR .'system/model.php');

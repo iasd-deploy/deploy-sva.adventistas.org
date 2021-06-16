@@ -25,4 +25,7 @@ ENV DB_NAME=$DB_NAME
 ENV DB_PASSWORD=$DB_PASSWORD
 ENV DB_USER=$DB_USER
 
+ENV BASE_URL=${BASE_URL:-//sva.adventistas.org/}
+ENV BASE_CDN=${BASE_CDN:-"//sva.adventistas.org/static/"}
+
 EXPOSE 80

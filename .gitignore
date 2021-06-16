@@ -1,0 +1,6 @@
+.DS_Store
+static/.DS_Store
+static/images/.DS_Store
+.mysql-data
+logs
+static/images/resources/png/

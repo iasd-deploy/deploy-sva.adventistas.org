@@ -1,0 +1,38 @@
+version: "3"
+
+services:
+  mysql_db:
+    image: mysql:5.7
+    volumes:
+      - ./config/database/:/docker-entrypoint-initdb.d/:rw
+      - "./.mysql-data/db:/var/lib/mysql"
+    command: mysqld --innodb-buffer-pool-size=512M
+      # - mysqld --sql_mode="NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: avsbox_live
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+  webserver:
+    build: 
+      context: .
+    container_name: '${COMPOSE_PROJECT_NAME}'
+    restart: 'always'
+    ports:
+      - "0.0.0.0:80:80"
+    volumes: 
+      - ./../:/var/www/html
+      - ./config/php/php.ini:/usr/local/etc/php/php.ini
+      - ./config/vhosts:/etc/apache2/sites-enabled
+      - ./logs/apache2:/var/log/apache2
+    environment:
+        DB_HOST: "mysql_db"
+        DB_PASSWORD: "admin"
+        DB_PORT: "3306"
+        DB_USER: "admin"
+        DB_NAME: "avsbox_live"
+        BASE_URL: "//svawebsite.local/"
+        BASE_CDN: "//svawebsite.local/static/"
