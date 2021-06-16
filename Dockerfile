@@ -5,7 +5,13 @@ COPY extras/start-apache /usr/local/bin
 COPY app /var/www/html
 COPY extras/disable-phpinfo.ini /usr/local/etc/php/conf.d/
 
-RUN docker-php-ext-install mysqli pdo pdo_mysql
+RUN apt-get update &&  apt-get install -y \
+        libzip-dev \
+        libpng-dev \
+        libonig-dev \
+        libmemcached-dev \
+        zip && rm -rf /var/lib/apt/lists/*
+RUN docker-php-ext-install mysqli pdo pdo_mysql json gd  mbstring 
 RUN a2enmod rewrite headers
 RUN chown -R www-data:www-data /var/www/html
 
