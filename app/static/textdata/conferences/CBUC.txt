@@ -1,0 +1,9 @@
+<option selected value="base">Please Select</option>
+<option value="CSPC">Central Sao Paulo Conference</option>
+<option value="ESPC">East Sao Paulo Conference</option>
+<option value="SPAC">Sao Paulo Conference</option>
+<option value="SPPV">Sao Paulo Valley Conference</option>
+<option value="SSPC">South Sao Paulo Conference</option>
+<option value="SESP">Southeast Sao Paulo Conference</option>
+<option value="SWSP">Southwest Sao Paulo Conference</option>
+<option value="WSPC">West Sao Paulo Conference</option>

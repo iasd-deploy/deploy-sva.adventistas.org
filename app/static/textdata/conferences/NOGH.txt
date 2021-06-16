@@ -1,0 +1,11 @@
+<option selected value="base">Please Select</option>
+<option value="ASCG">Ashanti Central Ghana Conference</option>
+<option value="ASSG">Ashanti South Ghana Conference</option>
+<option value="CGHC">Central Ghana Conference</option>
+<option value="GRVG">Green View Ghana Conference</option>
+<option value="MICG">Mid-Central Ghana Conference</option>
+<option value="MING">Mid-North Ghana Conference</option>
+<option value="MWGM">Mid-West Ghana Conference</option>
+<option value="MVGH">Mountain View Ghana Conference</option>
+<option value="NGHM">North Ghana Mission</option>
+<option value="SCGC">South Central Ghana Conference</option>

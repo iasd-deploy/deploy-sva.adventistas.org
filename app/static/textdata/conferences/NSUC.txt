@@ -1,0 +1,9 @@
+<option selected value="base">Please Select</option>
+<option value="CRLC">Carolina Conference</option>
+<option value="FLRC">Florida Conference</option>
+<option value="GCMC">Georgia-Cumberland Conference</option>
+<option value="GSTC">Gulf States Conference</option>
+<option value="KTNC">Kentucky-Tennessee Conference</option>
+<option value="SALC">South Atlantic Conference</option>
+<option value="SSCC">South Central Conference</option>
+<option value="SSEC">Southeastern Conference</option>

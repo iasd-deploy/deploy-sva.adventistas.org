@@ -1,0 +1,8 @@
+<option selected value="base">Please Select</option>
+<option value="CANM">Central Andina Mission</option>
+<option value="SCPC">Central Peru Conference</option>
+<option value="CSPE">Central South Peru Mission</option>
+<option value="EPRM">East Peru Mission</option>
+<option value="LKTM">Lake Titicaca Mission</option>
+<option value="SPRM">South Peru Mission</option>
+<option value="SEPU">Southeast Peru Mission</option>

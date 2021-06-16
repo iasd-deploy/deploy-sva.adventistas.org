@@ -1,0 +1,10 @@
+<option selected value="base">Please Select</option>
+<option value="BUKC">Bukovinskaya Conference</option>
+<option value="CUKC">Central Ukrainian Conference</option>
+<option value="DNPC">Dnieper Conference</option>
+<option value="EDNC">Eastern Dnieper Conference</option>
+<option value="EUKC">Eastern Ukrainian Mission</option>
+<option value="KIEV">Kyiv Conference</option>
+<option value="PODC">Podolsk Conference</option>
+<option value="SUKC">Southern Ukrainian Conference</option>
+<option value="WUKC">Western Ukrainian Conference</option>

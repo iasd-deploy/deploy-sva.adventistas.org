@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="ADMR">Adamaoua-Mayo Rey Conference</option>
+<option value="BEFA">Benoue-Faro Mission</option>
+<option value="CSCM">Central-South Cameroon Conference</option>
+<option value="ECMM">East Cameroon Conference</option>
+<option value="NCMM">North Cameroon Conference</option>
+<option value="WCMM">West Cameroon Conference</option>

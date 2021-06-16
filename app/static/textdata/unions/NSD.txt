@@ -1,0 +1,6 @@
+<option selected value="base">Please Select</option>
+<option value="CHUM">Chinese Union Mission</option>
+<option value="JPUC">Japan Union Conference</option>
+<option value="KRUC">Korean Union Conference</option>
+<option value="MGMF">Mongolia Mission</option>
+<option value="TWNM">Taiwan Conference</option>

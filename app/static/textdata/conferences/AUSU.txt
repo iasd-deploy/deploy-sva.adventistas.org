@@ -1,0 +1,10 @@
+<option selected value="base">Please Select</option>
+<option value="GSYC">Greater Sydney Conference</option>
+<option value="NNSWC">North New South Wales Conference</option>
+<option value="NASC">Northern Australian Conference</option>
+<option value="SASC">South Australian Conference</option>
+<option value="SNSWC">South New South Wales Conference</option>
+<option value="SQUC">South Queensland Conference</option>
+<option value="TASC">Tasmanian Conference</option>
+<option value="VCTC">Victorian Conference</option>
+<option value="WASC">Western Australian Conference</option>

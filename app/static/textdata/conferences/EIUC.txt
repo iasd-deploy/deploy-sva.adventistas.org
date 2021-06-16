@@ -1,0 +1,12 @@
+<option selected value="base">Please Select</option>
+<option value="BMGO">Bolaang Mongondow and Gorontalo Mission</option>
+<option value="CSLM">Central Sulawesi Mission</option>
+<option value="LUTA">Luwu Tana Toraja Mission</option>
+<option value="MLKM">Maluku Mission</option>
+<option value="NMNC">Manado and North Maluku Conference</option>
+<option value="SMHC">Minahasa Conference</option>
+<option value="NMBI">North Minahasa Bitung Mission</option>
+<option value="STIM">Northern Island Mission</option>
+<option value="IRJM">Papua Mission</option>
+<option value="SSUC">South Sulawesi Conference</option>
+<option value="WESP">West Papua Mission</option>

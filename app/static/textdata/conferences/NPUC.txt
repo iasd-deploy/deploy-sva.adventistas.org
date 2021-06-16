@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="ALAC">Alaska Conference</option>
+<option value="IDHC">Idaho Conference of Seventh-day Adventists, Inc.</option>
+<option value="MNTC">Montana Conference</option>
+<option value="ORGC">Oregon Conference</option>
+<option value="UCLC">Upper Columbia Conference</option>
+<option value="WSHC">Washington Conference</option>

@@ -1,0 +1,4 @@
+<option selected value="base">Please Select</option>
+<option value="BAEG">Greater Bahr el Ghazal Field</option>
+<option value="SSDF">Greater Equatoria Field</option>
+<option value="GUUN">Greater Upper Nile Field</option>

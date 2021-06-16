@@ -1,0 +1,12 @@
+<option selected value="base">Please Select</option>
+<option value="BAUM">Bangladesh Union Mission</option>
+<option value="CPUC">Central Philippine Union Conference</option>
+<option value="EIUC">East Indonesia Union Conference</option>
+<option value="MYUM">Myanmar Union Mission</option>
+<option value="NPUM">North Philippine Union Conference</option>
+<option value="PKUS">Pakistan Union Section</option>
+<option value="SPUC">South Philippine Union Conference</option>
+<option value="SEAUM">Southeast Asia Union Mission</option>
+<option value="WIUM">West Indonesia Union Mission</option>
+<option value="SRIL">Sri Lanka Mission of SDA</option>
+<option value="ETIM">Timor-Leste Mission</option>

@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="BANC">Banat Conference</option>
+<option value="MOLC">Moldavia Conference</option>
+<option value="MUNC">Muntenia Conference</option>
+<option value="NTRC">North Transylvania Conference</option>
+<option value="OLTC">Oltenia Conference</option>
+<option value="STRC">South Transylvania Conference</option>

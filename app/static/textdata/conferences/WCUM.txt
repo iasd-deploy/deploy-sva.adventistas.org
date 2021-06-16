@@ -1,0 +1,6 @@
+<option selected value="base">Please Select</option>
+<option value="CKAS">Central Kasai Field</option>
+<option value="CGEF">Congo Equatorial Field</option>
+<option value="LCON">Lower Congo Field</option>
+<option value="WCGF">West Congo Field</option>
+<option value="WKSF">West Kasai Field</option>

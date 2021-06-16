@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="CDMC">Central Dominican Conference</option>
+<option value="EDMM">East Dominican Conference</option>
+<option value="NDMC">North Dominican Conference</option>
+<option value="NEDO">Northeast Dominican Conference</option>
+<option value="SDMM">South Dominican Conference</option>
+<option value="SEDM">Southeast Dominican Conference</option>

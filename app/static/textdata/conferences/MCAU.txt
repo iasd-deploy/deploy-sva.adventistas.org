@@ -1,0 +1,6 @@
+<option selected value="base">Please Select</option>
+<option value="ATHO">Atlantic Honduras Conference</option>
+<option value="BYIM">Bay Islands Conference</option>
+<option value="CHSM">Central Honduras Conference</option>
+<option value="COYA">Comayaguela Mission</option>
+<option value="NHSM">Northwest Honduras Conference</option>

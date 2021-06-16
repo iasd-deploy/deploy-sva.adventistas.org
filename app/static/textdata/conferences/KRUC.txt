@@ -1,0 +1,8 @@
+<option selected value="base">Please Select</option>
+<option value="ECKC">East Central Korean Conference</option>
+<option value="JEJU">Jeju Region</option>
+<option value="MWKC">Middlewest Korean Conference</option>
+<option value="NKRM">North Korean Mission</option>
+<option value="SEKC">Southeast Korean Conference</option>
+<option value="SWKC">Southwest Korean Conference</option>
+<option value="WCKC">West Central Korean Conference</option>

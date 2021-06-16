@@ -1,0 +1,6 @@
+<option selected value="base">Please Select</option>
+<option value="EMDF">East Mediterranean Region</option>
+<option value="EGYF">Egypt-Sudan Field</option>
+<option value="GUSS">Gulf Field</option>
+<option value="MAGS">North Africa Region</option>
+<option value="TRKS">West Asia Field</option>

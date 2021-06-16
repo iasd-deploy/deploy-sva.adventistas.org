@@ -1,0 +1,8 @@
+<option selected value="base">Please Select</option>
+<option value="CCLM">Central Chile Mission</option>
+<option value="SCHC">Central South Chile Conference</option>
+<option value="MCHC">Metropolitan Chile Conference</option>
+<option value="NCHM">North Chile Conference</option>
+<option value="PCHM">Pacific Chile Mission</option>
+<option value="ACHM">South Austral Chile Conference</option>
+<option value="SOMC">South Metropolitan Chile Mission</option>
