@@ -1,0 +1,9 @@
+<option selected value="base">Please Select</option>
+<option value="ALEC">Allegheny East Conference</option>
+<option value="ALWC">Allegheny West Conference</option>
+<option value="CHSC">Chesapeake Conference</option>
+<option value="MTVC">Mountain View Conference</option>
+<option value="NJRC">New Jersey Conference of Seventh-day Adventists, Inc.</option>
+<option value="OHIC">Ohio Conference</option>
+<option value="PNAC">Pennsylvania Conference</option>
+<option value="POTC">Potomac Conference</option>

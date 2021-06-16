@@ -1,0 +1,8 @@
+<option selected value="base">Please Select</option>
+<option value="CMIN">Central Mindanao Adventist Mission</option>
+<option value="DAVM">Davao Mission</option>
+<option value="NMDC">North Central Mindanao Conference</option>
+<option value="NEMM">Northeastern Mindanao Mission</option>
+<option value="SMDM">Southern Mindanao Mission</option>
+<option value="WMDC">Western Mindanao Conference</option>
+<option value="SWMD">Zamboanga Peninsula Mission</option>

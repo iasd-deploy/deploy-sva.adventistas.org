@@ -1,0 +1,15 @@
+<option selected value="base">Please Select</option>
+<option value="ADUC">Adriatic Union Conference</option>
+<option value="BAUC">Baltic Union Conference</option>
+<option value="BRUC">British Union Conference</option>
+<option value="DUOC">Danish Union of Churches Conference</option>
+<option value="FNUC">Finland Union of Churches Conference</option>
+<option value="HUNC">Hungarian Union Conference</option>
+<option value="NEUC">Netherlands Union of Churches Conference</option>
+<option value="NRUC">Norwegian Union Conference</option>
+<option value="POUC">Polish Union Conference</option>
+<option value="SEEUC">South-East European Union Conference</option>
+<option value="SWDC">Swedish Union of Churches Conference</option>
+<option value="CYPS">Cyprus Section</option>
+<option value="GRKM">Greek Mission</option>
+<option value="ICLC">Iceland Conference</option>

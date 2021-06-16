@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="CKYC">Central Kenya Conference</option>
+<option value="CRVA">Central Rift Valley Conference</option>
+<option value="KYCF">Kenya Coast Field</option>
+<option value="NYAC">Nyamira Conference</option>
+<option value="SKYC">South Kenya Conference</option>
+<option value="SEKE">South-East Kenya Field</option>

@@ -1,0 +1,9 @@
+<option selected value="base">Please Select</option>
+<option value="CMAD">Cambodia Adventist Mission</option>
+<option value="LAAC">Laos Region</option>
+<option value="PMYM">Peninsular Malaysia Mission</option>
+<option value="SABM">Sabah Mission</option>
+<option value="SRWM">Sarawak Mission</option>
+<option value="SGPM">Singapore Conference</option>
+<option value="THLM">Thailand Mission</option>
+<option value="VIEM">Vietnam Mission</option>

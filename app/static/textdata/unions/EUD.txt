@@ -1,0 +1,12 @@
+<option selected value="base">Please Select</option>
+<option value="AUOC">Austrian Union of Churches Conference</option>
+<option value="BUOC">Bulgarian Union of Churches Conference</option>
+<option value="CSUC">Czecho-Slovakian Union Conference</option>
+<option value="FBUC">Franco-Belgian Union Conference</option>
+<option value="IUOC">Italian Union of Churches Conference</option>
+<option value="NGUC">North German Union Conference</option>
+<option value="PUOC">Portuguese Union of Churches Conference</option>
+<option value="RMUC">Romanian Union Conference</option>
+<option value="SGUC">South German Union Conference</option>
+<option value="SUOC">Spanish Union of Churches Conference</option>
+<option value="SWSC">Swiss Union Conference</option>

@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="CISM">Cook Islands Mission</option>
+<option value="FPLM">French Polynesia Mission</option>
+<option value="NCLM">New Caledonia Mission</option>
+<option value="NNZC">North New Zealand Conference</option>
+<option value="PTAC">Pitcairn Field Station</option>
+<option value="SNZC">South New Zealand Conference</option>

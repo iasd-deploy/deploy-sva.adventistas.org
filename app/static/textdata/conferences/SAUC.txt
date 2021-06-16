@@ -1,0 +1,9 @@
+<option selected value="base">Please Select</option>
+<option value="CAPC">Cape Conference</option>
+<option value="KNSC">KwaZulu Natal-Free State Conference</option>
+<option value="LESC">Lesotho Conference</option>
+<option value="NNAM">North Namibia Conference</option>
+<option value="TSVC">Northern Conference</option>
+<option value="NAMF">South Namibia Conference</option>
+<option value="SWZC">Swaziland Conference</option>
+<option value="TORC">Trans-Orange Conference</option>

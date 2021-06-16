@@ -1,0 +1,6 @@
+<option selected value="base">Please Select</option>
+<option value="CBRC">Central Brazil Conference</option>
+<option value="CPLC">Central Planalto Conference</option>
+<option value="MGRM">Mato Grosso Conference</option>
+<option value="SMGC">South Mato Grosso Conference</option>
+<option value="TOCS">Tocantins Mission</option>

@@ -1,0 +1,13 @@
+<option selected value="base">Please Select</option>
+<option value="SGHC">Accra City Conference</option>
+<option value="DFGH">Diamond Field Ghana Conference</option>
+<option value="EGHC">East Ghana Conference</option>
+<option value="EVGH">Eastern View Ghana Conference</option>
+<option value="MEGH">Meridian Ghana Conference</option>
+<option value="MSGH">Mid-South Ghana Conference</option>
+<option value="PIGH">Pioneer Ghana Conference</option>
+<option value="SWGC">South West Ghana Conference</option>
+<option value="VNGH">Volta North Ghana Mission</option>
+<option value="VSGH">Volta South Ghana Mission</option>
+<option value="WCGH">West-Central Ghana Conference</option>
+<option value="WNGH">Western North Ghana Conference</option>

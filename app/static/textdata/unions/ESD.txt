@@ -1,0 +1,12 @@
+<option selected value="base">Please Select</option>
+<option value="ESDB">Euro-Asia Division (Branch)</option>
+<option value="BELC">Belarus Union of Churches Conference</option>
+<option value="CAUU">Caucasus Union Mission</option>
+<option value="ERUM">East Russian Union Mission</option>
+<option value="FEC">Far Eastern Union of Churches Mission</option>
+<option value="MOUC">Moldova Union of Churches Conference</option>
+<option value="ESUC">Southern Union Mission</option>
+<option value="TRCA">Trans-Caucasus Union of Churches Mission</option>
+<option value="UKUC">Ukrainian Union Conference</option>
+<option value="WRUC">West Russian Union Conference</option>
+<option value="CRIM">Crimea Mission</option>

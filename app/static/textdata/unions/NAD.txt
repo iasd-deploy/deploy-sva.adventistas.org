@@ -1,0 +1,11 @@
+<option selected value="base">Please Select</option>
+<option value="ATUC">Atlantic Union Conference</option>
+<option value="SCIC">Canada,  SDA Church in</option>
+<option value="COUC">Columbia Union Conference</option>
+<option value="LKUC">Lake Union Conference</option>
+<option value="MAUC">Mid-America Union Conference</option>
+<option value="NPUC">North Pacific Union Conference</option>
+<option value="PAUC">Pacific Union Conference</option>
+<option value="NSUC">Southern Union Conference</option>
+<option value="SWUC">Southwestern Union Conference</option>
+<option value="GUMM">Guam-Micronesia Mission</option>

@@ -1,0 +1,8 @@
+<option selected value="base">Please Select</option>
+<option value="APRR">Arunachal Pradesh Region</option>
+<option value="ASSR">Assam Region</option>
+<option value="GARS">Garo Section</option>
+<option value="KHJC">Khasi Jaintia Conference</option>
+<option value="MNPS">Manipur Conference</option>
+<option value="MIZC">Mizo Conference</option>
+<option value="NGLS">Nagaland Region</option>

@@ -1,0 +1,11 @@
+<option selected value="base">Please Select</option>
+<option value="BCAC">Baja California Conference</option>
+<option value="NMXM">Chihuahua Mexican Conference</option>
+<option value="GMXM">Gulf Mexican Conference</option>
+<option value="NTAM">North Tamaulipas Mexican Conference</option>
+<option value="NEMC">Northeast Mexican Conference</option>
+<option value="NOEX">Northwest Mexican Mission</option>
+<option value="REGI">Regiomontana Mission</option>
+<option value="SINM">Sinaloa Mexican Conference</option>
+<option value="NWMC">Sonora Mexican Conference</option>
+<option value="WMXM">West Mexican Conference</option>

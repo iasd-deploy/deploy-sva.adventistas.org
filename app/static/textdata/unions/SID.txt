@@ -1,0 +1,14 @@
+<option selected value="base">Please Select</option>
+<option value="BOTU">Botswana Union Conference</option>
+<option value="IOUM">Indian Ocean Union Conference</option>
+<option value="MWUM">Malawi Union Conference</option>
+<option value="MZUM">Mozambique Union Mission</option>
+<option value="NOAO">North-Eastern Angola Union Mission</option>
+<option value="NZAM">Northern Zambia Union Conference</option>
+<option value="SAUC">Southern Africa Union Conference</option>
+<option value="SZAM">Southern Zambia Union Conference</option>
+<option value="AGUM">South-Western Angola Union Mission</option>
+<option value="ZIMC">Zimbabwe Central Union Conference</option>
+<option value="ZIME">Zimbabwe East Union Conference</option>
+<option value="ZIMW">Zimbabwe West Union Conference</option>
+<option value="STPM">Sao Tome and Principe Mission</option>

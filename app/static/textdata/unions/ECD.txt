@@ -1,0 +1,14 @@
+<option selected value="base">Please Select</option>
+<option value="BURM">Burundi Union Mission</option>
+<option value="ECUM">East Congo Union Mission</option>
+<option value="EAKU">East Kenya Union Conference</option>
+<option value="ETUM">Ethiopian Union Mission</option>
+<option value="NECO">North East Congo Union Mission</option>
+<option value="NTAU">Northen Tanzania Union Conference</option>
+<option value="RWUM">Rwanda Union Mission</option>
+<option value="STAU">Southern Tanzania Union Mission</option>
+<option value="UGUM">Uganda Union Mission</option>
+<option value="WCUM">West Congo Union Mission</option>
+<option value="WKEU">West Kenya Union Conference</option>
+<option value="ERMF">Eritrea Mission Field</option>
+<option value="SSAT">South Sudan Attached Territory</option>

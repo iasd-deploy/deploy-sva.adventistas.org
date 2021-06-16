@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="ATPA">Atlantic Panama Conference</option>
+<option value="BDLT">Bocas del Toro Mission</option>
+<option value="CPAN">Central Panama Conference</option>
+<option value="EPNC">Metropolitan Panama Conference</option>
+<option value="SEPA">Southeast Panama Mission</option>
+<option value="WPNM">West Panama Conference</option>

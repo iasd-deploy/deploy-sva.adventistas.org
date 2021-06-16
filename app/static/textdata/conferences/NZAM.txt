@@ -1,0 +1,6 @@
+<option selected value="base">Please Select</option>
+<option value="CZAF">Copperbelt Zambia Conference</option>
+<option value="LUPF">Luapula Zambia Conference</option>
+<option value="CZAC">Midlands East Zambia Conference</option>
+<option value="MSWZ">Midlands West Zambia Conference</option>
+<option value="NZAF">North Zambia Field</option>

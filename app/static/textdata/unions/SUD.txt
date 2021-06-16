@@ -1,0 +1,11 @@
+<option selected value="base">Please Select</option>
+<option value="CIUS">East-Central India Union Section</option>
+<option value="NEIUS">Northeast India Union Section</option>
+<option value="NIUS">Northern India Union Section</option>
+<option value="KRNG">South-Central India Union Section</option>
+<option value="SIUS">Southeast India Union Section</option>
+<option value="KRLA">Southwest India Union Section</option>
+<option value="WIND">Western India Union Section</option>
+<option value="ANIR">Andaman and Nicobar Island Region</option>
+<option value="EHIM">East Himalayan Field</option>
+<option value="HIMR">Himalayan Section</option>

@@ -1,0 +1,11 @@
+<option selected value="base">Please Select</option>
+<option value="CAUM">Cameroon Union Mission</option>
+<option value="CEAF">Central African Union Mission</option>
+<option value="ENUM">Eastern Nigeria Union Conference</option>
+<option value="SAUM">Eastern Sahel Union Mission</option>
+<option value="NOGH">Northern Ghana Union Mission</option>
+<option value="NONI">Northern Nigeria Union Conference</option>
+<option value="GHUC">Southern Ghana Union Conference</option>
+<option value="WAUM">West African Union Mission</option>
+<option value="NGUM">Western Nigeria Union Conference</option>
+<option value="WESA">Western Sahel Union Mission</option>

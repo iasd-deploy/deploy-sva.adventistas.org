@@ -1,0 +1,11 @@
+<option selected value="base">Please Select</option>
+<option value="CETF">Central Ethiopia Field</option>
+<option value="GAMB">Gambella Field Station</option>
+<option value="TGAM">North Ethiopia Field</option>
+<option value="NWEF">Northwest Ethiopia Field</option>
+<option value="SCET">South Central Ethiopia Field</option>
+<option value="SEET">South East Ethiopia Field</option>
+<option value="SETF">South Ethiopia Field</option>
+<option value="SWET">South West Ethiopia Field</option>
+<option value="WCET">West Central Ethiopia Field</option>
+<option value="WETF">West Ethiopia Conference</option>

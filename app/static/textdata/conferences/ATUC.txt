@@ -1,0 +1,7 @@
+<option selected value="base">Please Select</option>
+<option value="BERC">Bermuda Conference</option>
+<option value="GNYC">Greater New York Conference</option>
+<option value="NYKC">New York Conference</option>
+<option value="ANEC">Northeastern Conference</option>
+<option value="NNEC">Northern New England Conference</option>
+<option value="SNEC">Southern New England Conference</option>

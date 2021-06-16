@@ -1,0 +1,9 @@
+<option selected value="base">Please Select</option>
+<option value="CEVE">Central East Venezuela Conference</option>
+<option value="CLLV">Central Llanos Venezuela Mission</option>
+<option value="CVZC">Central Venezuela Conference</option>
+<option value="EVZM">East Venezuela Conference</option>
+<option value="NEVE">Northeast Venezuela Mission</option>
+<option value="SOBO">South Bolivar Venezuela Mission</option>
+<option value="SCVM">South Central Venezuela Conference</option>
+<option value="SEVM">Southeast Venezuela Conference</option>

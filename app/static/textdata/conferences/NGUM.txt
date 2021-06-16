@@ -1,0 +1,12 @@
+<option selected value="base">Please Select</option>
+<option value="DELC">Delta Conference</option>
+<option value="EDDM">Edo Conference</option>
+<option value="EKIT">Ekiti Conference</option>
+<option value="KOGI">Kogi Region</option>
+<option value="KWAC">Kwara Conference</option>
+<option value="LAAT">Lagos Atlantic Conference</option>
+<option value="LAMA">Lagos Mainland Conference</option>
+<option value="OGUN">Ogun Conference</option>
+<option value="SWNC">Ondo Mission</option>
+<option value="OSUN">Osun Conference</option>
+<option value="WNGC">Oyo Conference</option>

@@ -1,0 +1,6 @@
+<option selected value="base">Please Select</option>
+<option value="EKSF">East Kasai Field</option>
+<option value="EKAT">East Katanga Mission</option>
+<option value="NKTF">North Katanga Field</option>
+<option value="SKTF">South Katanga Field</option>
+<option value="WKAT">West Katanga Field</option>

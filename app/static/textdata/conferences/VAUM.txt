@@ -1,0 +1,11 @@
+<option selected value="base">Please Select</option>
+<option value="CANV">Central Andean Venezuela Mission</option>
+<option value="EAVE">East Andean Venezuela Mission</option>
+<option value="NCVE">North Central Venezuela Conference</option>
+<option value="NWVE">Northwestern Venezuela Mission</option>
+<option value="POVE">Portuguese Venezuela Mission</option>
+<option value="SWVM">Southwest Venezuela Conference</option>
+<option value="WCVC">West Central Venezuela Conference</option>
+<option value="LLWV">West Los Llanos Venezuela Conference</option>
+<option value="WVZM">West Venezuela Conference</option>
+<option value="YAVE">Yaracuy Venezuela Mission</option>

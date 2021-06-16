@@ -1,0 +1,9 @@
+<option selected value="base">Please Select</option>
+<option value="CRWA">Central Rwanda Field</option>
+<option value="ERWA">East Central Rwanda Conference</option>
+<option value="NRWA">North Rwanda Conference</option>
+<option value="NERW">North-East Rwanda Field</option>
+<option value="NWRW">North-West Rwanda Field</option>
+<option value="SRWA">South Rwanda Field</option>
+<option value="SERW">South-East Rwanda Field</option>
+<option value="WRWA">West Rwanda Field</option>

@@ -1,0 +1,5 @@
+<option selected value="base">Please Select</option>
+<option value="EBUR">East Burundi Field</option>
+<option value="NBUR">North Burundi Field</option>
+<option value="NWBU">North-West Burundi Field</option>
+<option value="SWBU">South-West Burundi Field</option>

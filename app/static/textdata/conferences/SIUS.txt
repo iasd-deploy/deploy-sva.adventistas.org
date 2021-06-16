@@ -1,0 +1,14 @@
+<option selected value="base">Please Select</option>
+<option value="CHMR">Chennai Metro Section</option>
+<option value="COTI">Coimbatore Tirupur Region</option>
+<option value="DHRI">Dharmapuri Region</option>
+<option value="ERNR">Erode Nilgiris Section</option>
+<option value="CHKA">Kanchipuram-Chengalpattu Section</option>
+<option value="NTMC">North Tamil Conference</option>
+<option value="PDKY">Pudukottai-Thirumayam Region</option>
+<option value="RSVR">Sivagangai Ramanathapuram Section</option>
+<option value="STMC">South Tamil Conference</option>
+<option value="THKA">Thanjavur-Karaikal Section</option>
+<option value="THPE">Theni-Periyakulam Region</option>
+<option value="VELL">Vellore Region</option>
+<option value="VITH">Villupuram-Tindivanam Region</option>
