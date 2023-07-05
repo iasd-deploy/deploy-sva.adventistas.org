@@ -1,0 +1,1181 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Humanite \u2013 Charity & Donation Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.2",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Causes",
+            "screenshot": "screenshots\/causes.jpg",
+            "source": "templates\/causes.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/causes\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Causes Details",
+            "screenshot": "screenshots\/causes-details.jpg",
+            "source": "templates\/causes-details.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/causes-details\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Events",
+            "screenshot": "screenshots\/events.jpg",
+            "source": "templates\/events.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/events\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Event Details",
+            "screenshot": "screenshots\/event-details.jpg",
+            "source": "templates\/event-details.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/event-details\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Volunteer",
+            "screenshot": "screenshots\/volunteer.jpg",
+            "source": "templates\/volunteer.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/volunteer\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Gallery",
+            "screenshot": "screenshots\/gallery.jpg",
+            "source": "templates\/gallery.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/gallery\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Blog",
+            "screenshot": "screenshots\/single-blog.jpg",
+            "source": "templates\/single-blog.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/single-blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm Donation",
+            "screenshot": "screenshots\/metform-donation.jpg",
+            "source": "templates\/metform-donation.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/metform-donation\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm Register Event",
+            "screenshot": "screenshots\/metform-register-event.jpg",
+            "source": "templates\/metform-register-event.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/metform-register-event\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm Register Volunteer",
+            "screenshot": "screenshots\/metform-register-volunteer.jpg",
+            "source": "templates\/metform-register-volunteer.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/metform-register-volunteer\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm Contact",
+            "screenshot": "screenshots\/metform-contact.jpg",
+            "source": "templates\/metform-contact.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/metform-contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404 Page",
+            "screenshot": "screenshots\/404-page.jpg",
+            "source": "templates\/404-page.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/humanite\/template-kit\/404-page\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.6.1",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Gutenverse",
+            "version": "1.1.5",
+            "file": "gutenverse\/gutenverse.php",
+            "author": "Jegstudio"
+        },
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.4.3-dev-2",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegstudio"
+        },
+        {
+            "name": "MetForm",
+            "version": "2.1.6",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Stratum - Elementor Widgets",
+            "version": "1.3.13",
+            "file": "stratum\/stratum.php",
+            "author": "MotoPress"
+        }
+    ],
+    "images": [
+        {
+            "filename": "mom-at-home-during-lockdown-with-kids-overwhelmed-and-sad-e1611195626533.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/mom-at-home-during-lockdown-with-kids-overwhelmed-and-sad-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 272848,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-C3ZU47E"
+        },
+        {
+            "filename": "aubergine-e1611195670454.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/aubergine-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/causes.json",
+                    "name": "Causes"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 167568,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KMC5YTY"
+        },
+        {
+            "filename": "Hands.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Hands-800x450.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/causes.json",
+                    "name": "Causes"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 57926,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/raised-hands-world-cancer-day-awareness_6640281.htm"
+        },
+        {
+            "filename": "group-of-volunteer-forming-huddles-e1611195732112.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/group-of-volunteer-forming-huddles-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 278775,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-F4UX535"
+        },
+        {
+            "filename": "portrait-of-volunteer-group-forming-huddles.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/portrait-of-volunteer-group-forming-huddles-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 375427,
+            "dimensions": [
+                1333,
+                2000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-9UVX6YK"
+        },
+        {
+            "filename": "Causes-2.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Causes-2-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/causes.json",
+                    "name": "Causes"
+                },
+                {
+                    "source": "templates\/causes-details.json",
+                    "name": "Causes Details"
+                }
+            ],
+            "filesize": 125083,
+            "dimensions": [
+                1024,
+                684
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/f8f9610c-d43f-484b-82ba-ea24d751d1f6"
+        },
+        {
+            "filename": "causes.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/causes-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/causes.json",
+                    "name": "Causes"
+                },
+                {
+                    "source": "templates\/causes-details.json",
+                    "name": "Causes Details"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 173106,
+            "dimensions": [
+                1024,
+                684
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/f4abecc0-453e-4b62-a11c-dc7d7e7e213d"
+        },
+        {
+            "filename": "Image-A9QS3N7.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Image-A9QS3N7-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/causes.json",
+                    "name": "Causes"
+                },
+                {
+                    "source": "templates\/event-details.json",
+                    "name": "Event Details"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                }
+            ],
+            "filesize": 179387,
+            "dimensions": [
+                1024,
+                684
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-A9QS3N7"
+        },
+        {
+            "filename": "hands-of-young-homeless-african-man-begging-for-food-e1611195781207.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/hands-of-young-homeless-african-man-begging-for-food-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/causes.json",
+                    "name": "Causes"
+                },
+                {
+                    "source": "templates\/causes-details.json",
+                    "name": "Causes Details"
+                }
+            ],
+            "filesize": 75636,
+            "dimensions": [
+                1024,
+                684
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-DH5BXR9"
+        },
+        {
+            "filename": "happy-kid-e1610420197161.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/happy-kid-e1610420197161-800x1163.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 469340,
+            "dimensions": [
+                1273,
+                1851
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-W97QA6P"
+        },
+        {
+            "filename": "portrait-of-volunteer-group-posing-e1611195950376.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/portrait-of-volunteer-group-posing-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                },
+                {
+                    "source": "templates\/404-page.json",
+                    "name": "404 Page"
+                }
+            ],
+            "filesize": 359084,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-T5LXKKM"
+        },
+        {
+            "filename": "Image-9RVG87W.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Image-9RVG87W-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 298062,
+            "dimensions": [
+                1920,
+                1281
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-9RVG87W"
+        },
+        {
+            "filename": "background-2.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/background-2-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/causes.json",
+                    "name": "Causes"
+                },
+                {
+                    "source": "templates\/causes-details.json",
+                    "name": "Causes Details"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/event-details.json",
+                    "name": "Event Details"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                }
+            ],
+            "filesize": 219634,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/www.twenty20.com\/photos\/af537ffe-ac8d-4cf9-ad3a-33da20dbf5b9"
+        },
+        {
+            "filename": "happy-multicultural-women-holding-cardboard-box-and-paper-bag-with-apples-while-standing-near-e1611196039833.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/happy-multicultural-women-holding-cardboard-box-and-paper-bag-with-apples-while-standing-near-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/events.json",
+                    "name": "Events"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                }
+            ],
+            "filesize": 282028,
+            "dimensions": [
+                1920,
+                1282
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-RDQ83ZY"
+        },
+        {
+            "filename": "Image-7GJ5W9M.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Image-7GJ5W9M-800x787.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 157518,
+            "dimensions": [
+                1024,
+                1007
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7GJ5W9M"
+        },
+        {
+            "filename": "Image-VZKUZZD.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Image-VZKUZZD-800x787.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 199885,
+            "dimensions": [
+                1024,
+                1007
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VZKUZZD"
+        },
+        {
+            "filename": "Image-5S79FQC.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Image-5S79FQC-800x787.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 158226,
+            "dimensions": [
+                1024,
+                1007
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-5S79FQC"
+        },
+        {
+            "filename": "african-american-girl-hands-holding-a-marble-made-heart-e1611196026519.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/african-american-girl-hands-holding-a-marble-made-heart-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/causes.json",
+                    "name": "Causes"
+                },
+                {
+                    "source": "templates\/causes-details.json",
+                    "name": "Causes Details"
+                },
+                {
+                    "source": "templates\/event-details.json",
+                    "name": "Event Details"
+                }
+            ],
+            "filesize": 151806,
+            "dimensions": [
+                1920,
+                1282
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PH2LYX5"
+        },
+        {
+            "filename": "Image-1.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Image-1.png",
+            "templates": [
+                {
+                    "source": "templates\/causes.json",
+                    "name": "Causes"
+                }
+            ],
+            "filesize": 31858,
+            "dimensions": [
+                160,
+                160
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-M6NJPEF"
+        },
+        {
+            "filename": "image-3.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/image-3.png",
+            "templates": [
+                {
+                    "source": "templates\/causes.json",
+                    "name": "Causes"
+                }
+            ],
+            "filesize": 29754,
+            "dimensions": [
+                160,
+                160
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Q8JDNBT"
+        },
+        {
+            "filename": "Image.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Image.jpg",
+            "templates": [
+                {
+                    "source": "templates\/causes.json",
+                    "name": "Causes"
+                }
+            ],
+            "filesize": 17155,
+            "dimensions": [
+                160,
+                160
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-83S5W35"
+        },
+        {
+            "filename": "Testimonial.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Testimonial.jpg",
+            "templates": [
+                {
+                    "source": "templates\/causes.json",
+                    "name": "Causes"
+                }
+            ],
+            "filesize": 29574,
+            "dimensions": [
+                160,
+                160
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-N8572T7"
+        },
+        {
+            "filename": "portrait-of-volunteer-group-holding-box-e1611196062937.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/portrait-of-volunteer-group-holding-box-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/event-details.json",
+                    "name": "Event Details"
+                }
+            ],
+            "filesize": 317950,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-R6FZ4GZ"
+        },
+        {
+            "filename": "Logo-CE3VQV@2x.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Logo-CE3VQV@2x-800x319.png",
+            "templates": [
+                {
+                    "source": "templates\/event-details.json",
+                    "name": "Event Details"
+                }
+            ],
+            "filesize": 18045,
+            "dimensions": [
+                898,
+                358
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/logo-CE3VQV"
+        },
+        {
+            "filename": "Logo-DAHN76@2x.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Logo-DAHN76@2x-800x310.png",
+            "templates": [
+                {
+                    "source": "templates\/event-details.json",
+                    "name": "Event Details"
+                }
+            ],
+            "filesize": 41521,
+            "dimensions": [
+                921,
+                357
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/logo-DAHN76"
+        },
+        {
+            "filename": "Logo-JQLHGD@2x.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Logo-JQLHGD@2x-800x307.png",
+            "templates": [
+                {
+                    "source": "templates\/event-details.json",
+                    "name": "Event Details"
+                }
+            ],
+            "filesize": 24461,
+            "dimensions": [
+                933,
+                358
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/logo-JQLHGD"
+        },
+        {
+            "filename": "Logoo-89Q2DZ@2x.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Logoo-89Q2DZ@2x-800x280.png",
+            "templates": [
+                {
+                    "source": "templates\/event-details.json",
+                    "name": "Event Details"
+                }
+            ],
+            "filesize": 23889,
+            "dimensions": [
+                1018,
+                356
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/logo-89Q2DZ"
+        },
+        {
+            "filename": "Image-PZ7TQP6.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Image-PZ7TQP6-800x787.jpg",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 192476,
+            "dimensions": [
+                1024,
+                1007
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PZ7TQP6"
+        },
+        {
+            "filename": "Image-PVZXQSC.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Image-PVZXQSC-800x787.jpg",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 178155,
+            "dimensions": [
+                1024,
+                1007
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PVZXQSC"
+        },
+        {
+            "filename": "Image-KEAZPUR.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Image-KEAZPUR-800x787.jpg",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 178143,
+            "dimensions": [
+                1024,
+                1007
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KEAZPUR"
+        },
+        {
+            "filename": "happy-kid-W97QA6P.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/happy-kid-W97QA6P-800x1153.jpg",
+            "templates": [
+                {
+                    "source": "templates\/volunteer.json",
+                    "name": "Volunteer"
+                }
+            ],
+            "filesize": 246084,
+            "dimensions": [
+                1284,
+                1851
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-W97QA6P"
+        },
+        {
+            "filename": "cropped-shot-of-volunteers-with-food-and-drinks-for-charity-e1611196122635.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/cropped-shot-of-volunteers-with-food-and-drinks-for-charity-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                }
+            ],
+            "filesize": 146581,
+            "dimensions": [
+                1920,
+                1282
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QQ6GJBV"
+        },
+        {
+            "filename": "poor-male-beggar-asking-for-charity-money-and-help-e1611196106673.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/poor-male-beggar-asking-for-charity-money-and-help-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/single-blog.json",
+                    "name": "Single Blog"
+                }
+            ],
+            "filesize": 122152,
+            "dimensions": [
+                1920,
+                1282
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PCNTSB6"
+        },
+        {
+            "filename": "contact-us-button-on-keyboard-concept-of-internet-online-contact-through-website--e1611196116274.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/contact-us-button-on-keyboard-concept-of-internet-online-contact-through-website--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 261270,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-FUQANW4"
+        },
+        {
+            "filename": "Logo2@2x.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/Logo2@2x-800x213.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 21765,
+            "dimensions": [
+                1259,
+                335
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/logo-EJG5X3Y"
+        },
+        {
+            "filename": "logo-black@2x.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/humanite\/wp-content\/uploads\/sites\/32\/2021\/01\/logo-black@2x.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 23642,
+            "dimensions": [
+                1259,
+                334
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/logo-EJG5X3Y"
+        }
+    ]
+}

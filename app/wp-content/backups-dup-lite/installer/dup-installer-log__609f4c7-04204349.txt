@@ -1,0 +1,1733 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 02:07:49
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 8.1.6                                 |8.1.13
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.1.13 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.54 (Debian)
+DOC ROOT____________: "/var/www/html"
+REQUEST URL_________: "https://sva.adventistas.org"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/var/www/html"
+URL_NEW_____________: "https://sva.adventistas.org"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/var/www/html/20230120_servicovoluntarioadventista_[HASH]_20230704204349_archive.zip"
+ARCHIVE SIZE________: 389.99MB
+CREATED_____________: 2023-07-04 20:43:49
+WP VERSION__________: 6.2.2
+DUP VERSION_________: 1.5.5
+LICENSE_____________: Free version
+DB VERSION__________: 10.3.38
+DB FILE SIZE________: 150.66MB
+DB TABLES___________: 147
+DB ROWS_____________: 139353
+URL HOME____________: https://sva.adventistas.org
+URL CORE____________: https://sva.adventistas.org
+URL CONTENT_________: https://sva.adventistas.org/wp-content
+URL UPLOAD__________: https://sva.adventistas.org/wp-content/uploads
+URL PLUGINS_________: https://sva.adventistas.org/wp-content/plugins
+URL MU PLUGINS______: https://sva.adventistas.org/wp-content/mu-plugins
+URL THEMES__________: https://sva.adventistas.org/wp-content/themes
+PATH HOME___________: /home/sva.adventistas.org/public_html
+PATH ABS____________: /home/sva.adventistas.org/public_html
+PATH WPCONFIG_______: /home/sva.adventistas.org/public_html
+PATH WPCONTENT______: /home/sva.adventistas.org/public_html/wp-content
+PATH UPLOADS________: /home/sva.adventistas.org/public_html/wp-content/uploads
+PATH PLUGINS________: /home/sva.adventistas.org/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/sva.adventistas.org/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/sva.adventistas.org/public_html/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "sva.adventistas.org/"
+
+PLUGINS
+PLUGIN [SLUG:cf7-builder/cf7-builder.php                       ][ON:true ]  Builder for Contact Form 7
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:contact-form-cfdb7/contact-form-cfdb-7.php        ][ON:true ]  Contact Form CFDB7
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:header-footer-elementor/header-footer-elementor.php][ON:true ]  Elementor Header & Footer Builder
+PLUGIN [SLUG:elementskit-lite/elementskit-lite.php             ][ON:true ]  ElementsKit Lite
+PLUGIN [SLUG:envato-elements/envato-elements.php               ][ON:true ]  Envato Elements
+PLUGIN [SLUG:essential-addons-for-elementor-lite/essential_adons_elementor.php][ON:true ]  Essential Addons for Elementor
+PLUGIN [SLUG:filester/ninja-file-manager.php                   ][ON:true ]  Filester - File Manager Pro
+PLUGIN [SLUG:ga-google-analytics/ga-google-analytics.php       ][ON:true ]  GA Google Analytics
+PLUGIN [SLUG:loco-translate/loco.php                           ][ON:true ]  Loco Translate
+PLUGIN [SLUG:instagram-feed/instagram-feed.php                 ][ON:true ]  Smash Balloon Instagram Feed
+PLUGIN [SLUG:timeline-widget-addon-for-elementor/timeline-widget-addon-for-elementor.php][ON:true ]  Timeline Widget For Elementor
+PLUGIN [SLUG:translatepress-multilingual/index.php             ][ON:true ]  TranslatePress - Multilingual
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:wordfence/wordfence.php                           ][ON:true ]  Wordfence Security
+PLUGIN [SLUG:wp-console/wp-console.php                         ][ON:true ]  WP Console
+PLUGIN [SLUG:wpforms/wpforms.php                               ][ON:true ]  WPForms
+PLUGIN [SLUG:wpforms-lite/wpforms.php                          ][ON:false]  WPForms Lite
+PLUGIN [SLUG:wp-mail-smtp/wp_mail_smtp.php                     ][ON:true ]  WP Mail SMTP
+PLUGIN [SLUG:yellow-pencil-visual-theme-customizer/yellow-pencil.php][ON:true ]  YellowPencil
+
+********************************************************************************
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/html/dup-installer/main.installer.php|LINE:84]
+LOG-TIME[/var/www/html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.10084]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/html/dup-installer/main.installer.php|LINE:84]
+LOG-TIME[/var/www/html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.02172]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00025]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/var/www/html"
+--------------------------------------
+LOG-TIME[DELTA:   0.01563]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00197]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.03690]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.02122]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00260]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00256]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00038]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00146]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00157]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.02005]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00118]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00154]  MESSAGE:TEST "Character Set and Collation Support" RESULT: soft warning
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: hard warning
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00110]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00139]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00032]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+DEFAULT DB_CHARSET [utf8] isn't valid, update DB_CHARSET to utf8mb4 and DB_COLLATE set empty
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/var/www/html"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 02:10:16
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Serviço Voluntário Adventista"
+HOME URL NEW________: "https://sva.adventistas.org"
+SITE URL NEW________: "https://sva.adventistas.org/"
+CONTENT URL NEW_____: "https://sva.adventistas.org/wp-content"
+UPLOAD URL NEW______: "https://sva.adventistas.org/wp-content/uploads"
+PLUGINS URL NEW_____: "https://sva.adventistas.org/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://sva.adventistas.org/wp-content/mu-plugins"
+HOME PATH NEW_______: "/var/www/html"
+SITE PATH NEW_______: "/var/www/html/"
+CONTENT PATH NEW____: "/var/www/html/wp-content"
+UPLOAD PATH NEW_____: "/var/www/html/wp-content/uploads"
+PLUGINS PATH NEW____: "/var/www/html/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/var/www/html/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/var/www/html/dup-installer"
+	FILE: "/var/www/html/20230120_servicovoluntarioadventista_[HASH]_20230704204349_installer-backup.php"
+	FILE: "/var/www/html/20230120_servicovoluntarioadventista_[HASH]_20230704204349_archive.zip"
+	FILE: "/var/www/html/installer.php"
+	FILE: "/var/www/html/dup-installer-bootlog__609f4c7-04204349.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20230120_servicovoluntarioadventista_[HASH]_20230704204349_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE ".htaccess" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0101 sec. - Files processed: 9,311 of 27,141
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9311
+--------------------------------------
+PATHS MAPPING : "/var/www/html"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0097 sec. - Files processed: 23,512 of 27,141
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 23512
+--------------------------------------
+PATHS MAPPING : "/var/www/html"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 27747
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 02:10:28 - RUNTIME: 11.8401 sec. - Files processed: 27,141 of 27,141
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 02:10:28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_actionscheduler_actions"______________________[ROWS:     194] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_actions]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_claims]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_groups]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:     566] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_logs]
+TABLE "wp_cf7b_builder"_________________________________[ROWS:      77] [EXTRACT|REPLACE] [INST NAME: wp_cf7b_builder]
+TABLE "wp_cf7b_submissions"_____________________________[ROWS:     118] [EXTRACT|REPLACE] [INST NAME: wp_cf7b_submissions]
+TABLE "wp_cf7b_themes"__________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_cf7b_themes]
+TABLE "wp_commentmeta"__________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_db7_forms"____________________________________[ROWS:      66] [EXTRACT|REPLACE] [INST NAME: wp_db7_forms]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_e_events"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_events]
+TABLE "wp_gla_budget_recommendations"___________________[ROWS:    4230] [EXTRACT|REPLACE] [INST NAME: wp_gla_budget_recommendations]
+TABLE "wp_gla_merchant_issues"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_gla_merchant_issues]
+TABLE "wp_gla_shipping_rates"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_gla_shipping_rates]
+TABLE "wp_gla_shipping_times"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_gla_shipping_times]
+TABLE "wp_glider_elementor_cache"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_glider_elementor_cache]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_mailpoet_custom_fields"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_custom_fields]
+TABLE "wp_mailpoet_dynamic_segment_filters"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_dynamic_segment_filters]
+TABLE "wp_mailpoet_feature_flags"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_feature_flags]
+TABLE "wp_mailpoet_forms"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_forms]
+TABLE "wp_mailpoet_log"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_log]
+TABLE "wp_mailpoet_mapping_to_external_entities"________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_mapping_to_external_entities]
+TABLE "wp_mailpoet_newsletters"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletters]
+TABLE "wp_mailpoet_newsletter_links"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletter_links]
+TABLE "wp_mailpoet_newsletter_option"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletter_option]
+TABLE "wp_mailpoet_newsletter_option_fields"____________[ROWS:      22] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletter_option_fields]
+TABLE "wp_mailpoet_newsletter_posts"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletter_posts]
+TABLE "wp_mailpoet_newsletter_segment"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletter_segment]
+TABLE "wp_mailpoet_newsletter_templates"________________[ROWS:      91] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletter_templates]
+TABLE "wp_mailpoet_scheduled_tasks"_____________________[ROWS:      87] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_scheduled_tasks]
+TABLE "wp_mailpoet_scheduled_task_subscribers"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_scheduled_task_subscribers]
+TABLE "wp_mailpoet_segments"____________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_segments]
+TABLE "wp_mailpoet_sending_queues"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_sending_queues]
+TABLE "wp_mailpoet_settings"____________________________[ROWS:      16] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_settings]
+TABLE "wp_mailpoet_statistics_bounces"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_bounces]
+TABLE "wp_mailpoet_statistics_clicks"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_clicks]
+TABLE "wp_mailpoet_statistics_forms"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_forms]
+TABLE "wp_mailpoet_statistics_newsletters"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_newsletters]
+TABLE "wp_mailpoet_statistics_opens"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_opens]
+TABLE "wp_mailpoet_statistics_unsubscribes"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_unsubscribes]
+TABLE "wp_mailpoet_statistics_woocommerce_purchases"____[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_woocommerce_purchases]
+TABLE "wp_mailpoet_stats_notifications"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_stats_notifications]
+TABLE "wp_mailpoet_subscribers"_________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_subscribers]
+TABLE "wp_mailpoet_subscriber_custom_field"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_subscriber_custom_field]
+TABLE "wp_mailpoet_subscriber_ips"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_subscriber_ips]
+TABLE "wp_mailpoet_subscriber_segment"__________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_subscriber_segment]
+TABLE "wp_mailpoet_user_agents"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_user_agents]
+TABLE "wp_mailpoet_user_flags"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_user_flags]
+TABLE "wp_mylisting_events"_____________________________[ROWS:     280] [EXTRACT|REPLACE] [INST NAME: wp_mylisting_events]
+TABLE "wp_mylisting_locations"__________________________[ROWS:     184] [EXTRACT|REPLACE] [INST NAME: wp_mylisting_locations]
+TABLE "wp_mylisting_messages"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mylisting_messages]
+TABLE "wp_mylisting_relations"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mylisting_relations]
+TABLE "wp_mylisting_visits"_____________________________[ROWS:    3528] [EXTRACT|REPLACE] [INST NAME: wp_mylisting_visits]
+TABLE "wp_mylisting_workhours"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mylisting_workhours]
+TABLE "wp_nextend2_image_storage"_______________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_nextend2_image_storage]
+TABLE "wp_nextend2_section_storage"_____________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_nextend2_section_storage]
+TABLE "wp_nextend2_smartslider3_generators"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_nextend2_smartslider3_generators]
+TABLE "wp_nextend2_smartslider3_sliders"________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_nextend2_smartslider3_sliders]
+TABLE "wp_nextend2_smartslider3_sliders_xref"___________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_nextend2_smartslider3_sliders_xref]
+TABLE "wp_nextend2_smartslider3_slides"_________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: wp_nextend2_smartslider3_slides]
+TABLE "wp_options"______________________________________[ROWS:    1234] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:   17299] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:    1619] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_sbi_feeds"____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_sbi_feeds]
+TABLE "wp_sbi_feed_caches"______________________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: wp_sbi_feed_caches]
+TABLE "wp_sbi_instagram_feeds_posts"____________________[ROWS:     167] [EXTRACT|REPLACE] [INST NAME: wp_sbi_instagram_feeds_posts]
+TABLE "wp_sbi_instagram_feed_locator"___________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_sbi_instagram_feed_locator]
+TABLE "wp_sbi_instagram_posts"__________________________[ROWS:     167] [EXTRACT|REPLACE] [INST NAME: wp_sbi_instagram_posts]
+TABLE "wp_sbi_sources"__________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_sbi_sources]
+TABLE "wp_termmeta"_____________________________________[ROWS:     243] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:     100] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:     198] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     100] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_trp_dictionary_pt_br_en_us"___________________[ROWS:     193] [EXTRACT|REPLACE] [INST NAME: wp_trp_dictionary_pt_br_en_us]
+TABLE "wp_trp_dictionary_pt_br_es_es"___________________[ROWS:   13992] [EXTRACT|REPLACE] [INST NAME: wp_trp_dictionary_pt_br_es_es]
+TABLE "wp_trp_gettext_en_us"____________________________[ROWS:      32] [EXTRACT|REPLACE] [INST NAME: wp_trp_gettext_en_us]
+TABLE "wp_trp_gettext_es_es"____________________________[ROWS:    8667] [EXTRACT|REPLACE] [INST NAME: wp_trp_gettext_es_es]
+TABLE "wp_trp_gettext_original_meta"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_trp_gettext_original_meta]
+TABLE "wp_trp_gettext_original_strings"_________________[ROWS:    8299] [EXTRACT|REPLACE] [INST NAME: wp_trp_gettext_original_strings]
+TABLE "wp_trp_gettext_pt_br"____________________________[ROWS:    8734] [EXTRACT|REPLACE] [INST NAME: wp_trp_gettext_pt_br]
+TABLE "wp_trp_original_meta"____________________________[ROWS:     489] [EXTRACT|REPLACE] [INST NAME: wp_trp_original_meta]
+TABLE "wp_trp_original_strings"_________________________[ROWS:   13959] [EXTRACT|REPLACE] [INST NAME: wp_trp_original_strings]
+TABLE "wp_usermeta"_____________________________________[ROWS:    1151] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:      51] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:     135] [EXTRACT|REPLACE] [INST NAME: wp_wc_admin_notes]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:     171] [EXTRACT|REPLACE] [INST NAME: wp_wc_admin_note_actions]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_wc_category_lookup]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:      20] [EXTRACT|REPLACE] [INST NAME: wp_wc_customer_lookup]
+TABLE "wp_wc_download_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_download_log]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_coupon_lookup]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_product_lookup]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_stats]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_tax_lookup]
+TABLE "wp_wc_product_attributes_lookup"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_attributes_lookup]
+TABLE "wp_wc_product_download_directories"______________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_download_directories]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_meta_lookup]
+TABLE "wp_wc_rate_limits"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_rate_limits]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_reserved_stock]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_wc_tax_rate_classes]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_webhooks]
+TABLE "wp_wfblockediplog"_______________________________[ROWS:      89] [EXTRACT|REPLACE] [INST NAME: wp_wfblockediplog]
+TABLE "wp_wfblocks7"____________________________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_wfblocks7]
+TABLE "wp_wfconfig"_____________________________________[ROWS:     265] [EXTRACT|REPLACE] [INST NAME: wp_wfconfig]
+TABLE "wp_wfcrawlers"___________________________________[ROWS:     625] [EXTRACT|REPLACE] [INST NAME: wp_wfcrawlers]
+TABLE "wp_wffilechanges"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wffilechanges]
+TABLE "wp_wffilemods"___________________________________[ROWS:   23515] [EXTRACT|REPLACE] [INST NAME: wp_wffilemods]
+TABLE "wp_wfhits"_______________________________________[ROWS:    1602] [EXTRACT|REPLACE] [INST NAME: wp_wfhits]
+TABLE "wp_wfhoover"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfhoover]
+TABLE "wp_wfissues"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfissues]
+TABLE "wp_wfknownfilelist"______________________________[ROWS:   23516] [EXTRACT|REPLACE] [INST NAME: wp_wfknownfilelist]
+TABLE "wp_wflivetraffichuman"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wflivetraffichuman]
+TABLE "wp_wflocs"_______________________________________[ROWS:     174] [EXTRACT|REPLACE] [INST NAME: wp_wflocs]
+TABLE "wp_wflogins"_____________________________________[ROWS:    1347] [EXTRACT|REPLACE] [INST NAME: wp_wflogins]
+TABLE "wp_wfls_2fa_secrets"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfls_2fa_secrets]
+TABLE "wp_wfls_role_counts"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfls_role_counts]
+TABLE "wp_wfls_settings"________________________________[ROWS:      30] [EXTRACT|REPLACE] [INST NAME: wp_wfls_settings]
+TABLE "wp_wfnotifications"______________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_wfnotifications]
+TABLE "wp_wfpendingissues"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfpendingissues]
+TABLE "wp_wfreversecache"_______________________________[ROWS:      32] [EXTRACT|REPLACE] [INST NAME: wp_wfreversecache]
+TABLE "wp_wfsnipcache"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfsnipcache]
+TABLE "wp_wfstatus"_____________________________________[ROWS:    1389] [EXTRACT|REPLACE] [INST NAME: wp_wfstatus]
+TABLE "wp_wftrafficrates"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wftrafficrates]
+TABLE "wp_wfwaffailures"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wfwaffailures]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_api_keys]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_attribute_taxonomies]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_downloadable_product_permissions]
+TABLE "wp_woocommerce_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_log]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_itemmeta]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_items]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokenmeta]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokens]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_sessions]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zones]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_locations]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_methods]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rates]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rate_locations]
+TABLE "wp_wpforms_entries"______________________________[ROWS:     127] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_entries]
+TABLE "wp_wpforms_entry_fields"_________________________[ROWS:     694] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_entry_fields]
+TABLE "wp_wpforms_entry_meta"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_entry_meta]
+TABLE "wp_wpforms_payments"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_payments]
+TABLE "wp_wpforms_payment_meta"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_payment_meta]
+TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:      30] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_tasks_meta]
+TABLE "wp_wpmailsmtp_debug_events"______________________[ROWS:     125] [EXTRACT|REPLACE] [INST NAME: wp_wpmailsmtp_debug_events]
+TABLE "wp_wpmailsmtp_tasks_meta"________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_wpmailsmtp_tasks_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.6.12 -- Build Server: 10.3.38
+FILE SIZE:	dup-database__[HASH].sql (99.49MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE-GLOBAL:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+GLOBAL RULES ADDED: INVALID CHARSETS
+GLOBAL RULES ADDED: INVALID COLLATIONS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`%`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
+	REPLACE => $1utf8mb4$3utf8mb4_general_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4_general_ci$3utf8mb4$5
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_general_ci))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4$3utf8mb4_general_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_general_ci))([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
+	REPLACE => $1utf8mb4_general_ci$3utf8mb4$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_general_ci))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4_general_ci$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	1359
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:   194]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     7]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:   566]
+TABLE "wp_cf7b_builder"_________________________________[ROWS:    77]
+TABLE "wp_cf7b_submissions"_____________________________[ROWS:   118]
+TABLE "wp_cf7b_themes"__________________________________[ROWS:     1]
+TABLE "wp_commentmeta"__________________________________[ROWS:     2]
+TABLE "wp_comments"_____________________________________[ROWS:    18]
+TABLE "wp_db7_forms"____________________________________[ROWS:    66]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     2]
+TABLE "wp_e_events"_____________________________________[ROWS:     0]
+TABLE "wp_gla_budget_recommendations"___________________[ROWS:  4230]
+TABLE "wp_gla_merchant_issues"__________________________[ROWS:     0]
+TABLE "wp_gla_shipping_rates"___________________________[ROWS:     0]
+TABLE "wp_gla_shipping_times"___________________________[ROWS:     0]
+TABLE "wp_glider_elementor_cache"_______________________[ROWS:     1]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_mailpoet_custom_fields"_______________________[ROWS:     0]
+TABLE "wp_mailpoet_dynamic_segment_filters"_____________[ROWS:     0]
+TABLE "wp_mailpoet_feature_flags"_______________________[ROWS:     0]
+TABLE "wp_mailpoet_forms"_______________________________[ROWS:     0]
+TABLE "wp_mailpoet_log"_________________________________[ROWS:     0]
+TABLE "wp_mailpoet_mapping_to_external_entities"________[ROWS:     0]
+TABLE "wp_mailpoet_newsletter_links"____________________[ROWS:     0]
+TABLE "wp_mailpoet_newsletter_option"___________________[ROWS:     0]
+TABLE "wp_mailpoet_newsletter_option_fields"____________[ROWS:    22]
+TABLE "wp_mailpoet_newsletter_posts"____________________[ROWS:     0]
+TABLE "wp_mailpoet_newsletter_segment"__________________[ROWS:     0]
+TABLE "wp_mailpoet_newsletter_templates"________________[ROWS:    91]
+TABLE "wp_mailpoet_newsletters"_________________________[ROWS:     0]
+TABLE "wp_mailpoet_scheduled_task_subscribers"__________[ROWS:     0]
+TABLE "wp_mailpoet_scheduled_tasks"_____________________[ROWS:    87]
+TABLE "wp_mailpoet_segments"____________________________[ROWS:     3]
+TABLE "wp_mailpoet_sending_queues"______________________[ROWS:     0]
+TABLE "wp_mailpoet_settings"____________________________[ROWS:    16]
+TABLE "wp_mailpoet_statistics_bounces"__________________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_clicks"___________________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_forms"____________________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_newsletters"______________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_opens"____________________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_unsubscribes"_____________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_woocommerce_purchases"____[ROWS:     0]
+TABLE "wp_mailpoet_stats_notifications"_________________[ROWS:     0]
+TABLE "wp_mailpoet_subscriber_custom_field"_____________[ROWS:     0]
+TABLE "wp_mailpoet_subscriber_ips"______________________[ROWS:     0]
+TABLE "wp_mailpoet_subscriber_segment"__________________[ROWS:     8]
+TABLE "wp_mailpoet_subscribers"_________________________[ROWS:     5]
+TABLE "wp_mailpoet_user_agents"_________________________[ROWS:     0]
+TABLE "wp_mailpoet_user_flags"__________________________[ROWS:     0]
+TABLE "wp_mylisting_events"_____________________________[ROWS:   280]
+TABLE "wp_mylisting_locations"__________________________[ROWS:   184]
+TABLE "wp_mylisting_messages"___________________________[ROWS:     0]
+TABLE "wp_mylisting_relations"__________________________[ROWS:     0]
+TABLE "wp_mylisting_visits"_____________________________[ROWS:  3528]
+TABLE "wp_mylisting_workhours"__________________________[ROWS:     0]
+TABLE "wp_nextend2_image_storage"_______________________[ROWS:     9]
+TABLE "wp_nextend2_section_storage"_____________________[ROWS:     3]
+TABLE "wp_nextend2_smartslider3_generators"_____________[ROWS:     0]
+TABLE "wp_nextend2_smartslider3_sliders"________________[ROWS:     4]
+TABLE "wp_nextend2_smartslider3_sliders_xref"___________[ROWS:     3]
+TABLE "wp_nextend2_smartslider3_slides"_________________[ROWS:    11]
+TABLE "wp_options"______________________________________[ROWS:  1234]
+TABLE "wp_postmeta"_____________________________________[ROWS: 17299]
+TABLE "wp_posts"________________________________________[ROWS:  1619]
+TABLE "wp_sbi_feed_caches"______________________________[ROWS:    10]
+TABLE "wp_sbi_feeds"____________________________________[ROWS:     1]
+TABLE "wp_sbi_instagram_feed_locator"___________________[ROWS:     1]
+TABLE "wp_sbi_instagram_feeds_posts"____________________[ROWS:   167]
+TABLE "wp_sbi_instagram_posts"__________________________[ROWS:   167]
+TABLE "wp_sbi_sources"__________________________________[ROWS:     1]
+TABLE "wp_term_relationships"___________________________[ROWS:   198]
+TABLE "wp_term_taxonomy"________________________________[ROWS:   100]
+TABLE "wp_termmeta"_____________________________________[ROWS:   243]
+TABLE "wp_terms"________________________________________[ROWS:   100]
+TABLE "wp_trp_dictionary_pt_br_en_us"___________________[ROWS:   193]
+TABLE "wp_trp_dictionary_pt_br_es_es"___________________[ROWS: 13992]
+TABLE "wp_trp_gettext_en_us"____________________________[ROWS:    32]
+TABLE "wp_trp_gettext_es_es"____________________________[ROWS:  8667]
+TABLE "wp_trp_gettext_original_meta"____________________[ROWS:     0]
+TABLE "wp_trp_gettext_original_strings"_________________[ROWS:  8299]
+TABLE "wp_trp_gettext_pt_br"____________________________[ROWS:  8734]
+TABLE "wp_trp_original_meta"____________________________[ROWS:   489]
+TABLE "wp_trp_original_strings"_________________________[ROWS: 13959]
+TABLE "wp_usermeta"_____________________________________[ROWS:  1151]
+TABLE "wp_users"________________________________________[ROWS:    51]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:   171]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:   135]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:     1]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:    20]
+TABLE "wp_wc_download_log"______________________________[ROWS:     0]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:     0]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:     0]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:     0]
+TABLE "wp_wc_product_attributes_lookup"_________________[ROWS:     0]
+TABLE "wp_wc_product_download_directories"______________[ROWS:     2]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_rate_limits"_______________________________[ROWS:     0]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:     0]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:     2]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:     0]
+TABLE "wp_wfblockediplog"_______________________________[ROWS:    89]
+TABLE "wp_wfblocks7"____________________________________[ROWS:     8]
+TABLE "wp_wfconfig"_____________________________________[ROWS:   265]
+TABLE "wp_wfcrawlers"___________________________________[ROWS:   625]
+TABLE "wp_wffilechanges"________________________________[ROWS:     0]
+TABLE "wp_wffilemods"___________________________________[ROWS: 23515]
+TABLE "wp_wfhits"_______________________________________[ROWS:  1602]
+TABLE "wp_wfhoover"_____________________________________[ROWS:     0]
+TABLE "wp_wfissues"_____________________________________[ROWS:     0]
+TABLE "wp_wfknownfilelist"______________________________[ROWS: 23516]
+TABLE "wp_wflivetraffichuman"___________________________[ROWS:     0]
+TABLE "wp_wflocs"_______________________________________[ROWS:   174]
+TABLE "wp_wflogins"_____________________________________[ROWS:  1347]
+TABLE "wp_wfls_2fa_secrets"_____________________________[ROWS:     0]
+TABLE "wp_wfls_role_counts"_____________________________[ROWS:     0]
+TABLE "wp_wfls_settings"________________________________[ROWS:    30]
+TABLE "wp_wfnotifications"______________________________[ROWS:     5]
+TABLE "wp_wfpendingissues"______________________________[ROWS:     0]
+TABLE "wp_wfreversecache"_______________________________[ROWS:    32]
+TABLE "wp_wfsnipcache"__________________________________[ROWS:     0]
+TABLE "wp_wfstatus"_____________________________________[ROWS:  1389]
+TABLE "wp_wftrafficrates"_______________________________[ROWS:     0]
+TABLE "wp_wfwaffailures"________________________________[ROWS:     0]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:     0]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0]
+TABLE "wp_woocommerce_log"______________________________[ROWS:     0]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:     0]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:     0]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:     1]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:     1]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:     1]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:     0]
+TABLE "wp_wpforms_entries"______________________________[ROWS:   127]
+TABLE "wp_wpforms_entry_fields"_________________________[ROWS:   694]
+TABLE "wp_wpforms_entry_meta"___________________________[ROWS:     0]
+TABLE "wp_wpforms_payment_meta"_________________________[ROWS:     0]
+TABLE "wp_wpforms_payments"_____________________________[ROWS:     0]
+TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:    30]
+TABLE "wp_wpmailsmtp_debug_events"______________________[ROWS:   125]
+TABLE "wp_wpmailsmtp_tasks_meta"________________________[ROWS:     1]
+
+INSERT DATA RUNTIME: 11.6078 sec.
+STEP-2 COMPLETE @ 02:10:39 - RUNTIME: 11.6079 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/sva.adventistas.org/public_html REPLACE: /var/www/html/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /home/sva.adventistas.org/public_html REPLACE: /var/www/html [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://sva.adventistas.org REPLACE: https://sva.adventistas.org/ [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 02:10:40
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = ]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:   146]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     2]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:   194][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   566][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_cf7b_builder"_________________________________[ROWS:    77][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_cf7b_builder][0]
+
+EVALUATE TABLE: "wp_cf7b_submissions"_____________________________[ROWS:   118][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_cf7b_submissions][0]
+
+EVALUATE TABLE: "wp_cf7b_themes"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_cf7b_themes][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_commentmeta][0]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_db7_forms"____________________________________[ROWS:    66][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_db7_forms][0]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_budget_recommendations"___________________[ROWS:  4230][PG:   5][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_gla_budget_recommendations][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_gla_budget_recommendations][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_gla_budget_recommendations][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_gla_budget_recommendations][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_gla_budget_recommendations][4]
+
+EVALUATE TABLE: "wp_gla_merchant_issues"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_shipping_rates"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_shipping_times"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_glider_elementor_cache"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_glider_elementor_cache][0]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_custom_fields"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_dynamic_segment_filters"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_feature_flags"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_forms"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_log"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_mapping_to_external_entities"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletters"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_links"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_option"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_option_fields"____________[ROWS:    22][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_newsletter_option_fields][0]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_posts"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_segment"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_templates"________________[ROWS:    91][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_newsletter_templates][0]
+
+EVALUATE TABLE: "wp_mailpoet_scheduled_tasks"_____________________[ROWS:    87][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_scheduled_tasks][0]
+
+EVALUATE TABLE: "wp_mailpoet_scheduled_task_subscribers"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_segments"____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_segments][0]
+
+EVALUATE TABLE: "wp_mailpoet_sending_queues"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_settings"____________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_settings][0]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_bounces"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_clicks"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_forms"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_newsletters"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_opens"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_unsubscribes"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_woocommerce_purchases"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_stats_notifications"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscribers"_________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_subscribers][0]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_custom_field"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_ips"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_segment"__________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_subscriber_segment][0]
+
+EVALUATE TABLE: "wp_mailpoet_user_agents"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_user_flags"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mylisting_events"_____________________________[ROWS:   280][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_mylisting_events][0]
+
+EVALUATE TABLE: "wp_mylisting_locations"__________________________[ROWS:   184][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_mylisting_locations][0]
+
+EVALUATE TABLE: "wp_mylisting_messages"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mylisting_relations"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mylisting_visits"_____________________________[ROWS:  3528][PG:   4][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_mylisting_visits][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_mylisting_visits][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_mylisting_visits][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_mylisting_visits][3]
+
+EVALUATE TABLE: "wp_mylisting_workhours"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_image_storage"_______________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_nextend2_image_storage][0]
+
+EVALUATE TABLE: "wp_nextend2_section_storage"_____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_nextend2_section_storage][0]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_generators"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders"________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_nextend2_smartslider3_sliders][0]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders_xref"___________[ROWS:     3][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_slides"_________________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_nextend2_smartslider3_slides][0]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:  1088][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_options][1]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 17299][PG:  18][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][10]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][11]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][12]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][13]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][14]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][15]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][16]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][17]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  1619][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][1]
+
+EVALUATE TABLE: "wp_sbi_feeds"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_sbi_feeds][0]
+
+EVALUATE TABLE: "wp_sbi_feed_caches"______________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_sbi_feed_caches][0]
+
+EVALUATE TABLE: "wp_sbi_instagram_feeds_posts"____________________[ROWS:   167][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_sbi_instagram_feeds_posts][0]
+
+EVALUATE TABLE: "wp_sbi_instagram_feed_locator"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_sbi_instagram_feed_locator][0]
+
+EVALUATE TABLE: "wp_sbi_instagram_posts"__________________________[ROWS:   167][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_sbi_instagram_posts][0]
+
+EVALUATE TABLE: "wp_sbi_sources"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_sbi_sources][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:   243][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:   100][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   198][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:   100][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_trp_dictionary_pt_br_en_us"___________________[ROWS:   193][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_en_us][0]
+
+EVALUATE TABLE: "wp_trp_dictionary_pt_br_es_es"___________________[ROWS: 13992][PG:  14][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][10]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][11]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][12]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_dictionary_pt_br_es_es][13]
+
+EVALUATE TABLE: "wp_trp_gettext_en_us"____________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_en_us][0]
+
+EVALUATE TABLE: "wp_trp_gettext_es_es"____________________________[ROWS:  8667][PG:   9][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_es_es][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_es_es][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_es_es][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_es_es][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_es_es][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_es_es][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_es_es][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_es_es][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_es_es][8]
+
+EVALUATE TABLE: "wp_trp_gettext_original_meta"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_trp_gettext_original_strings"_________________[ROWS:  8299][PG:   9][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_original_strings][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_original_strings][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_original_strings][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_original_strings][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_original_strings][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_original_strings][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_original_strings][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_original_strings][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_original_strings][8]
+
+EVALUATE TABLE: "wp_trp_gettext_pt_br"____________________________[ROWS:  8734][PG:   9][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_pt_br][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_pt_br][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_pt_br][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_pt_br][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_pt_br][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_pt_br][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_pt_br][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_pt_br][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_gettext_pt_br][8]
+
+EVALUATE TABLE: "wp_trp_original_meta"____________________________[ROWS:   489][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_meta][0]
+
+EVALUATE TABLE: "wp_trp_original_strings"_________________________[ROWS: 13959][PG:  14][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][10]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][11]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][12]
+	CHUNK ACTION: CURRENT [search_replace][wp_trp_original_strings][13]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:  1151][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][1]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:    51][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:   135][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_notes][0]
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:   171][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_customer_lookup][0]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_attributes_lookup"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_download_directories"______________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_product_download_directories][0]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfblockediplog"_______________________________[ROWS:    89][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfblockediplog][0]
+
+EVALUATE TABLE: "wp_wfblocks7"____________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfblocks7][0]
+
+EVALUATE TABLE: "wp_wfconfig"_____________________________________[ROWS:   265][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfconfig][0]
+
+EVALUATE TABLE: "wp_wfcrawlers"___________________________________[ROWS:   625][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfcrawlers][0]
+
+EVALUATE TABLE: "wp_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS: 23515][PG:  24][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][3]
+	
+STEP-3 CHUNK STOP @ 02:10:45 - RUNTIME: 5.3592 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][4]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][5]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][6]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][7]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][8]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][9]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][10]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][11]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][12]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][13]
+
+STEP-3 CHUNK STOP @ 02:10:50 - RUNTIME: 5.1487 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][14]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][15]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][16]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][17]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][18]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][19]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][20]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][21]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][22]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][23]
+
+STEP-3 CHUNK STOP @ 02:10:55 - RUNTIME: 5.2705 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:  1602][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfhits][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfhits][1]
+
+EVALUATE TABLE: "wp_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfissues"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS: 23516][PG:  24][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][8]
+	
+STEP-3 CHUNK STOP @ 02:11:00 - RUNTIME: 5.1061 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][9]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][10]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][11]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][12]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][13]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][14]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][15]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][16]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][17]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][18]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][19]
+
+STEP-3 CHUNK STOP @ 02:11:06 - RUNTIME: 5.4669 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][20]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][21]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][22]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][23]
+
+EVALUATE TABLE: "wp_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wflocs"_______________________________________[ROWS:   174][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wflocs][0]
+
+EVALUATE TABLE: "wp_wflogins"_____________________________________[ROWS:  1347][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wflogins][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_wflogins][1]
+
+EVALUATE TABLE: "wp_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_role_counts"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfls_settings"________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfls_settings][0]
+
+EVALUATE TABLE: "wp_wfnotifications"______________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfnotifications][0]
+
+EVALUATE TABLE: "wp_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfreversecache"_______________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfreversecache][0]
+
+EVALUATE TABLE: "wp_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfstatus"_____________________________________[ROWS:  1389][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wfstatus][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_wfstatus][1]
+
+EVALUATE TABLE: "wp_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wfwaffailures"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_shipping_zones][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_shipping_zone_locations][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_shipping_zone_methods][0]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_entries"______________________________[ROWS:   127][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpforms_entries][0]
+
+EVALUATE TABLE: "wp_wpforms_entry_fields"_________________________[ROWS:   694][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpforms_entry_fields][0]
+
+EVALUATE TABLE: "wp_wpforms_entry_meta"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_payments"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_payment_meta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpforms_tasks_meta][0]
+
+EVALUATE TABLE: "wp_wpmailsmtp_debug_events"______________________[ROWS:   125][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpmailsmtp_debug_events][0]
+
+EVALUATE TABLE: "wp_wpmailsmtp_tasks_meta"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/sva.adventistas.org/public_html" ===========> "/var/www/html"
+	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpmailsmtp_tasks_meta][0]
+--------------------------------------
+SCANNED:	Tables:147 	|	 Rows:139802 	|	 Cells:848686 
+UPDATED:	Tables:10 	|	 Rows:47393 	|	 Cells:47395 
+ERRORS:		0 
+RUNTIME:	28.551800 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/var/www/html/wp-config.php
+New htaccess file created:/var/www/html/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "https://sva.adventistas.org/"
+	UPDATE DB_NAME ""sva""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""sva_db""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/var/www/html"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:11:08 - RUNTIME: 2.2525 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/html/dup-installer/main.installer.php|LINE:84]
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[/var/www/html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.02748]  MESSAGE:END RENDER PAGE

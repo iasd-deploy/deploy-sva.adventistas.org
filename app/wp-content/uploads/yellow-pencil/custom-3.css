@@ -1,0 +1,63 @@
+/*
+
+    The following CSS codes are created by the YellowPencil plugin.
+    https://yellowpencil.waspthemes.com/
+
+
+    T A B L E   O F   C O N T E N T S
+    ........................................................................
+
+    01. "My account" Page
+
+*/
+
+
+
+/*-----------------------------------------------*/
+/*  "My account" Page                            */
+/*-----------------------------------------------*/
+body.page-id-1689 .woocommerce-MyAccount-content .col-md-8 .element{
+	display:none;
+}
+
+body.page-id-1689 .woocommerce-MyAccount-content .col-md-4{
+	display:none;
+}
+
+body.page-id-1689 .i-section .section-body > .col-md-12{
+	-webkit-transform:translatex(0px) translatey(0px);	-ms-transform:translatex(0px) translatey(0px);	transform:translatex(0px) translatey(0px);
+}
+
+body.page-id-1689 .col-md-3 > span > span > span > span{
+	display:none !important;
+}
+
+body.page-id-1689 .section-body .my-listings-stat-box .stat-card{
+	display:none;
+}
+
+@media (max-width:640px){
+
+	body.page-id-1689 .woocommerce-MyAccount-content .stat-card-visits .mlduo-stat-box{
+	display:none;
+}
+
+body.page-id-1689 .stat-card-active-promotions a .mlduo-stat-box{
+	display:none;
+	}
+
+}
+
+
+
+@media (min-width:769px){
+
+	body.page-id-1689 .stat-card-active-promotions a .mlduo-stat-box{
+	display:none;
+}
+
+body.page-id-1689 .woocommerce-MyAccount-content .stat-card-visits .mlduo-stat-box{
+	display:none;
+	}
+
+}
