@@ -61,6 +61,11 @@ define( 'NONCE_SALT',       '@LT<p=}u8w6S_0IM<JxG>Pd;HvzV;4Kqoi4(a&AIEhV3bn?x)Cn
 
 /**#@-*/
 
+define( 'FORCE_SSL', true );
+define( 'FORCE_SSL_ADMIN',true );
+$_SERVER['HTTPS']='on';
+
+
 /**
  * Prefixo da tabela do banco de dados do WordPress.
  *
