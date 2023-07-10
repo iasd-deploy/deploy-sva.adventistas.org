@@ -1,14 +1,14 @@
 ********************************************************************************
 * DUPLICATOR LITE: Install-Log
-* STEP-0 START @ 02:07:49
+* STEP-0 START @ 01:59:35
 * NOTICE: Do NOT post to public sites or forums!!
 ********************************************************************************
 PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
 OS__________________: Linux                                 |Linux
-PHP VERSION_________: 8.1.6                                 |8.1.13
+PHP VERSION_________: 8.1.6                                 |8.0.26
 ********************************************************************************
 CURRENT SERVER INFO
-PHP_________________: 8.1.13 | SAPI: apache2handler
+PHP_________________: 8.0.26 | SAPI: apache2handler
 PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
 ARCHITECTURE________: 64-bit
 SERVER______________: Apache/2.4.54 (Debian)
@@ -84,7 +84,7 @@ PLUGIN [SLUG:yellow-pencil-visual-theme-customizer/yellow-pencil.php][ON:true ] 
 
 ********************************************************************************
 [PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/html/dup-installer/main.installer.php|LINE:84]
-LOG-TIME[/var/www/html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.10084]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.11767]  MESSAGE:END RENDER PAGE
 LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
 
 -------------------------
@@ -95,13 +95,13 @@ AJAX ACTION [sparam_s1] SUCCESS
 LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
 STEP ACTION: "on-validate"
 [PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/html/dup-installer/main.installer.php|LINE:84]
-LOG-TIME[/var/www/html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.02172]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.02335]  MESSAGE:END RENDER PAGE
 LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
 
 -------------------------
 AJAX ACTION [validate] START
 START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
-LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Archive Check" RESULT: passed
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Archive Check" RESULT: passed
 
 START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
 LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
@@ -128,28 +128,179 @@ START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
 LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Age" RESULT: good
 
 START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
-LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Size" RESULT: good
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Package Size" RESULT: good
 
 START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
 LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
 
 START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
-LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
 
 START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
-LOG-TIME[DELTA:   0.00025]  MESSAGE:TEST "Siteground" RESULT: skip
+LOG-TIME[DELTA:   0.00026]  MESSAGE:TEST "Siteground" RESULT: skip
 
 START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
 --------------------------------------
 PATHS MAPPING : "/var/www/html"
 --------------------------------------
-LOG-TIME[DELTA:   0.01563]  MESSAGE:TEST "Addon Sites" RESULT: good
+LOG-TIME[DELTA:   0.01943]  MESSAGE:TEST "Addon Sites" RESULT: good
 
 START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
-LOG-TIME[DELTA:   0.00197]  MESSAGE:TEST "Wordfence" RESULT: good
+LOG-TIME[DELTA:   0.00062]  MESSAGE:TEST "Wordfence" RESULT: good
 
 START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
-LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.05183]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.03480]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00017]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00021]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00291]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00725]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00039]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00084]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00046]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.02243]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00343]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00175]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00335]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00081]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00031]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/html/dup-installer/main.installer.php|LINE:84]
+LOG-TIME[/var/www/html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.10318]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00017]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/var/www/html"
+--------------------------------------
+LOG-TIME[DELTA:   0.05261]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00024]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
 
 START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
 LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
@@ -170,77 +321,76 @@ START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
 LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
 
 START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
-LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Timeout" RESULT: good
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
 
 START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
-LOG-TIME[DELTA:   0.03690]  MESSAGE:TEST "Disk Space" RESULT: good
+LOG-TIME[DELTA:   0.03857]  MESSAGE:TEST "Disk Space" RESULT: good
 
 START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
-LOG-TIME[DELTA:   0.02122]  MESSAGE:TEST "Permissions: General" RESULT: passed
+LOG-TIME[DELTA:   0.04304]  MESSAGE:TEST "Permissions: General" RESULT: passed
 
 START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
-LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
 
 START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
-LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Host Name" RESULT: passed
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Host Name" RESULT: passed
 
 START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
-LOG-TIME[DELTA:   0.00260]  MESSAGE:TEST "Host Connection" RESULT: passed
+LOG-TIME[DELTA:   0.00154]  MESSAGE:TEST "Host Connection" RESULT: passed
 
 START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
-LOG-TIME[DELTA:   0.00256]  MESSAGE:TEST "Database Version" RESULT: passed
+LOG-TIME[DELTA:   0.00200]  MESSAGE:TEST "Database Version" RESULT: passed
 
 START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
 LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
 
 START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
-LOG-TIME[DELTA:   0.00038]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+LOG-TIME[DELTA:   0.00030]  MESSAGE:TEST "Database Engine Support" RESULT: passed
 
 START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
-LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
 
 START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
-LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
 
 START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
 LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
 
 START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
-LOG-TIME[DELTA:   0.00146]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+LOG-TIME[DELTA:   0.00059]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
 
 START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
-LOG-TIME[DELTA:   0.00157]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+LOG-TIME[DELTA:   0.00027]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
 
 START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
-LOG-TIME[DELTA:   0.02005]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+LOG-TIME[DELTA:   0.01604]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
 
 START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
-LOG-TIME[DELTA:   0.00118]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+LOG-TIME[DELTA:   0.00081]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
 
 START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
 LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
 
 START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
-LOG-TIME[DELTA:   0.00154]  MESSAGE:TEST "Character Set and Collation Support" RESULT: soft warning
+LOG-TIME[DELTA:   0.00243]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
 
 START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
-LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: hard warning
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
 
 START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
-LOG-TIME[DELTA:   0.00110]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+LOG-TIME[DELTA:   0.00104]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
 
 START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
-LOG-TIME[DELTA:   0.00139]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+LOG-TIME[DELTA:   0.00077]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
 
 START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
-LOG-TIME[DELTA:   0.00032]  MESSAGE:TEST "Prefix too long" RESULT: passed
+LOG-TIME[DELTA:   0.00060]  MESSAGE:TEST "Prefix too long" RESULT: passed
 
 START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
-LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Database cleanup" RESULT: skip
 
 
 CTRL PARAMS AFTER VALIDATION
-DEFAULT DB_CHARSET [utf8] isn't valid, update DB_CHARSET to utf8mb4 and DB_COLLATE set empty
 AJAX ACTION [validate] SUCCESS
 -------------------------
 
@@ -268,7 +418,7 @@ PATHS MAPPING : "/var/www/html"
 --------------------------------------
 ********************************************************************************
 * DUPLICATOR LITE: Install-Log
-* STEP-1 START @ 02:10:16
+* STEP-1 START @ 02:05:53
 * NOTICE: Do NOT post to public sites or forums!!
 ********************************************************************************
 USER INPUTS
@@ -328,7 +478,7 @@ MAINTENANCE MODE ENABLE
 *** CREATE FOLDER AND PERMISSION PREPARE
 FOLDER PREPARE DONE
 ARCHIVE OFFSET 0
-CHUNK COMPLETE - RUNTIME: 5.0101 sec. - Files processed: 9,311 of 27,141
+CHUNK COMPLETE - RUNTIME: 5.0125 sec. - Files processed: 9,491 of 27,141
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -337,11 +487,11 @@ LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 9311
+ARCHIVE OFFSET 9491
 --------------------------------------
 PATHS MAPPING : "/var/www/html"
 --------------------------------------
-CHUNK COMPLETE - RUNTIME: 5.0097 sec. - Files processed: 23,512 of 27,141
+CHUNK COMPLETE - RUNTIME: 5.0102 sec. - Files processed: 24,895 of 27,141
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -350,7 +500,7 @@ LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
 -------------------------
 AJAX ACTION [extract] START
 MAINTENANCE MODE ENABLE
-ARCHIVE OFFSET 23512
+ARCHIVE OFFSET 24895
 --------------------------------------
 PATHS MAPPING : "/var/www/html"
 --------------------------------------
@@ -358,7 +508,7 @@ FILE EXTRACTION: done processing last file in list of 27747
 
 EXTRACTION: ZIP CHUNKING >>> DONE
 
-EXTRACTION COMPLETE @ 02:10:28 - RUNTIME: 11.8401 sec. - Files processed: 27,141 of 27,141
+EXTRACTION COMPLETE @ 02:06:04 - RUNTIME: 11.3596 sec. - Files processed: 27,141 of 27,141
 AJAX ACTION [extract] SUCCESS
 -------------------------
 
@@ -372,7 +522,7 @@ ADD PREFIX META MAP ID 0 wp_
 
 ********************************************************************************
 * DUPLICATOR LITE: INSTALL-LOG
-* STEP-2 START @ 02:10:28
+* STEP-2 START @ 02:06:05
 * NOTICE: Do NOT post to public sites or forums!!
 ********************************************************************************
 USER INPUTS
@@ -387,7 +537,7 @@ USER MODE___________: "overwrite"
 TABLE PREFIX________: "wp_"
 MYSQL MODE__________: "DEFAULT"
 MYSQL MODE OPTS_____: ""
-CHARSET_____________: "utf8mb4"
+CHARSET_____________: "utf8"
 COLLATE_____________: ""
 CUNKING_____________: true
 VIEW CREATION_______: true
@@ -550,7 +700,7 @@ TABLE "wp_wpmailsmtp_tasks_meta"________________________[ROWS:       1] [EXTRACT
 --------------------------------------
 DATABASE-ENVIRONMENT
 --------------------------------------
-MYSQL VERSION:	This Server: 10.6.12 -- Build Server: 10.3.38
+MYSQL VERSION:	This Server: 10.3.38 -- Build Server: 10.3.38
 FILE SIZE:	dup-database__[HASH].sql (99.49MB)
 TIMEOUT:	5000
 MAXPACK:	16777216
@@ -562,8 +712,6 @@ DATABASE RESULTS
 --------------------------------------
 QUERY FIXES
 GLOBAL RULES ADDED: PROC AND VIEWS
-GLOBAL RULES ADDED: INVALID CHARSETS
-GLOBAL RULES ADDED: INVALID COLLATIONS
 
 QUERY FIXES GLOBAL RULES
 	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
@@ -572,24 +720,6 @@ QUERY FIXES GLOBAL RULES
 	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
 	REPLACE => $1SQL SECURITY INVOKER
 $2$3
-
-	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
-	REPLACE => $1utf8mb4$3utf8mb4_general_ci$5
-
-	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?[\s;,].*$)/m
-	REPLACE => $1utf8mb4_general_ci$3utf8mb4$5
-
-	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?[\s;,].*$)/m
-	REPLACE => $1utf8mb4$3
-
-	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_general_ci))([`'"]?[\s;,].*$)/m
-	REPLACE => $1utf8mb4$3utf8mb4_general_ci$5
-
-	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_general_ci))([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
-	REPLACE => $1utf8mb4_general_ci$3utf8mb4$5
-
-	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_general_ci))([`'"]?[\s;,].*$)/m
-	REPLACE => $1utf8mb4_general_ci$3
 
 --------------------------------------
 ** DATABASE CHUNK install start
@@ -756,8 +886,8 @@ TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:    30]
 TABLE "wp_wpmailsmtp_debug_events"______________________[ROWS:   125]
 TABLE "wp_wpmailsmtp_tasks_meta"________________________[ROWS:     1]
 
-INSERT DATA RUNTIME: 11.6078 sec.
-STEP-2 COMPLETE @ 02:10:39 - RUNTIME: 11.6079 sec.
+INSERT DATA RUNTIME: 12.9153 sec.
+STEP-2 COMPLETE @ 02:06:18 - RUNTIME: 12.9154 sec.
 AJAX ACTION [dbinstall] SUCCESS
 -------------------------
 
@@ -778,11 +908,11 @@ CHUNK ACTION: CURRENT [start][][]
 
 ********************************************************************************
 DUPLICATOR LITE: INSTALL-LOG
-STEP-3 START @ 02:10:40
+STEP-3 START @ 02:06:18
 NOTICE: Do NOT post to public sites or forums
 ********************************************************************************
-CHARSET SERVER:	"utf8mb4"
-CHARSET CLIENT:	"utf8mb4"
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
 ********************************************************************************
 OPTIONS:
 SKIP PATH REPLACE_____: false
@@ -1356,10 +1486,8 @@ EVALUATE TABLE: "wp_wffilemods"___________________________________[ROWS: 23515][
 	SEARCH[urlnd]  2:"https://sva.adventistas.org" =====================> "https://sva.adventistas.org"
 	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][0]
 	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][1]
-	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][2]
-	CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][3]
 	
-STEP-3 CHUNK STOP @ 02:10:45 - RUNTIME: 5.3592 sec. 
+STEP-3 CHUNK STOP @ 02:06:23 - RUNTIME: 5.1806 sec. 
 
 
 	AJAX ACTION [webupdate] SUCCESS
@@ -1369,18 +1497,30 @@ LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
 
 -------------------------
 AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][2]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][3]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][4]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][5]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][6]
+
+STEP-3 CHUNK STOP @ 02:06:28 - RUNTIME: 5.1510 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][7]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][8]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][9]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][10]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][11]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][12]
-CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][13]
 
-STEP-3 CHUNK STOP @ 02:10:50 - RUNTIME: 5.1487 sec. 
+STEP-3 CHUNK STOP @ 02:06:33 - RUNTIME: 5.0171 sec. 
 
 
 AJAX ACTION [webupdate] SUCCESS
@@ -1390,18 +1530,15 @@ LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
 
 -------------------------
 AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][13]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][14]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][15]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][16]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][17]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][18]
 CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][19]
-CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][20]
-CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][21]
-CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][22]
-CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][23]
 
-STEP-3 CHUNK STOP @ 02:10:55 - RUNTIME: 5.2705 sec. 
+STEP-3 CHUNK STOP @ 02:06:38 - RUNTIME: 5.1026 sec. 
 
 
 AJAX ACTION [webupdate] SUCCESS
@@ -1411,6 +1548,10 @@ LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
 
 -------------------------
 AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][20]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][21]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][22]
+CHUNK ACTION: CURRENT [search_replace][wp_wffilemods][23]
 
 EVALUATE TABLE: "wp_wfhits"_______________________________________[ROWS:  1602][PG:   2][SCAN:text columns]
 	--- BASE STRINGS ---
@@ -1431,13 +1572,8 @@ EVALUATE TABLE: "wp_wfknownfilelist"______________________________[ROWS: 23516][
 	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][1]
 	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][2]
 	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][3]
-	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][4]
-	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][5]
-	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][6]
-	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][7]
-	CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][8]
 	
-STEP-3 CHUNK STOP @ 02:11:00 - RUNTIME: 5.1061 sec. 
+STEP-3 CHUNK STOP @ 02:06:43 - RUNTIME: 5.2952 sec. 
 
 
 	AJAX ACTION [webupdate] SUCCESS
@@ -1447,19 +1583,16 @@ LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
 
 -------------------------
 AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][4]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][5]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][6]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][7]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][8]
 CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][9]
 CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][10]
 CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][11]
-CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][12]
-CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][13]
-CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][14]
-CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][15]
-CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][16]
-CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][17]
-CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][18]
-CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][19]
 
-STEP-3 CHUNK STOP @ 02:11:06 - RUNTIME: 5.4669 sec. 
+STEP-3 CHUNK STOP @ 02:06:49 - RUNTIME: 5.0588 sec. 
 
 
 AJAX ACTION [webupdate] SUCCESS
@@ -1469,7 +1602,26 @@ LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
 
 -------------------------
 AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][12]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][13]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][14]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][15]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][16]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][17]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][18]
+CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][19]
 CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][20]
+
+STEP-3 CHUNK STOP @ 02:06:54 - RUNTIME: 5.3269 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
 CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][21]
 CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][22]
 CHUNK ACTION: CURRENT [search_replace][wp_wfknownfilelist][23]
@@ -1609,7 +1761,7 @@ EVALUATE TABLE: "wp_wpmailsmtp_tasks_meta"________________________[ROWS:     1][
 SCANNED:	Tables:147 	|	 Rows:139802 	|	 Cells:848686 
 UPDATED:	Tables:10 	|	 Rows:47393 	|	 Cells:47395 
 ERRORS:		0 
-RUNTIME:	28.551800 sec
+RUNTIME:	38.019900 sec
 CHUNK ACTION: CURRENT [rem_maintenance][][]
 
 ====================================
@@ -1630,7 +1782,7 @@ CONFIGURATION FILE UPDATES
 	UPDATE DB_USER "** OBSCURED **"
 	UPDATE DB_PASSWORD "** OBSCURED **"
 	UPDATE DB_HOST ""sva_db""
-	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_CHARSET "utf8"
 	UPDATE DB_COLLATE ""
 	
 *** UPDATED WP CONFIG FILE ***
@@ -1703,7 +1855,7 @@ CHUNK ACTION: CURRENT [final_report][][]
 FINAL REPORT NOTICES
 ====================================
 
-STEP-3 COMPLETE @ 02:11:08 - RUNTIME: 2.2525 sec. 
+STEP-3 COMPLETE @ 02:06:56 - RUNTIME: 1.8702 sec. 
 
 
 AJAX ACTION [webupdate] SUCCESS
@@ -1730,4 +1882,4 @@ LOG-TIME[/var/www/html/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
 FINAL REPORT NOTICES LIST
 ====================================
 ====================================
-LOG-TIME[/var/www/html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.02748]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/html/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.01911]  MESSAGE:END RENDER PAGE

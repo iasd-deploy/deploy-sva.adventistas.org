@@ -36,10 +36,10 @@ define( 'DB_PASSWORD', $_ENV['WP_DB_PASSWORD']);
 /** MySQL hostname */
 define( 'DB_HOST', $_ENV['WP_DB_HOST'] .':3306');
 
-/** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+/** Database Charset to use in creating database tables. */
+define( 'DB_CHARSET', 'utf8' );
 
-/** The database collate type. Don't change this if in doubt. */
+/** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
 define( 'AS3CF_SETTINGS', serialize( array(

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-08 11:15:45+0000\n"
+"PO-Revision-Date: 2023-07-06 10:14:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,210 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.4\n"
 "Language: pt_BR\n"
 "Project-Id-Version: Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release)\n"
+
+#: modules/ai/connect/ai.php:22 assets/js/ai-admin.js:355 assets/js/ai.js:538
+msgid "AI"
+msgstr "IA"
+
+#: includes/editor-templates/navigator.php:16 assets/js/editor.js:34257
+msgid "Expand all elements"
+msgstr "Expandir todos os elementos"
+
+#. translators: 1: Link open tag, 2: Link close tag.
+#: core/document-types/page-base.php:97
+msgid "Set a different selector for the title in the %1$sLayout panel%2$s."
+msgstr "Defina um seletor diferente para o título no painel %1$sLayout%2$s."
+
+#: core/editor/templates/editor-body-v1.view.php:27
+#: core/editor/templates/editor-body-v2.view.php:27
+#: includes/editor-templates/editor-wrapper.php:30
+#: assets/js/packages/editor.js:187
+msgid "Edit \"%s\" with Elementor"
+msgstr "Edite \"%s\" com Elementor"
+
+#: core/editor/templates/editor-body-v2.view.php:29
+msgid "Top Bar"
+msgstr "Barra superior"
+
+#: core/experiments/manager.php:414
+msgid "If you deactivate Flexbox Container, you will permanently delete all content created with containers and lose access to container-based features like Tabs and Menu widgets"
+msgstr "Se você desativar o Flexbox Container, excluirá permanentemente todo o conteúdo criado com contêineres e perderá o acesso a recursos baseados em contêineres, como guias e widgets de menu"
+
+#: core/experiments/manager.php:435
+msgid "Grid Container"
+msgstr "Grid Container"
+
+#. translators: %1$s Link open tag, %2$s: Link close tag.
+#: core/experiments/manager.php:438
+msgid "Create pixel perfect layouts by placing elements in a customizable grid. Activate to add the CSS Grid option to container elements. %1$sLearn more%2$s"
+msgstr "Crie layouts de pixels perfeitos colocando elementos em uma grade personalizável. Ative para adicionar a opção CSS Grid aos elementos do contêiner. %1$sSaiba mais%2$s"
+
+#: includes/controls/base-units.php:130
+msgid "Switch units"
+msgstr "Alternar unidades"
+
+#: includes/controls/gaps.php:60
+#: includes/controls/groups/grid-container.php:113
+msgid "Row"
+msgstr "Linha"
+
+#: includes/controls/groups/grid-container.php:31
+msgid "Grid Outline"
+msgstr "Contorno da Grade"
+
+#: includes/controls/groups/grid-container.php:71
+msgid "Rows"
+msgstr "Linhas"
+
+#: includes/controls/groups/grid-container.php:96
+msgid "Gaps"
+msgstr "Lacunas"
+
+#: includes/controls/groups/grid-container.php:110
+msgid "Auto Flow"
+msgstr "Fluxo Automático"
+
+#: includes/controls/groups/grid-container.php:125
+msgctxt "Grid Container Control"
+msgid "Justify Items"
+msgstr "Justificar Itens"
+
+#: includes/controls/groups/grid-container.php:129
+#: includes/controls/groups/grid-container.php:157
+#: includes/controls/groups/grid-container.php:186
+#: includes/controls/groups/grid-container.php:226
+msgctxt "Grid Container Control"
+msgid "Start"
+msgstr "Começar"
+
+#: includes/controls/groups/grid-container.php:133
+#: includes/controls/groups/grid-container.php:161
+msgctxt "Grid Container Control"
+msgid "Center"
+msgstr "Centro"
+
+#: includes/controls/groups/grid-container.php:137
+#: includes/controls/groups/grid-container.php:165
+#: includes/controls/groups/grid-container.php:194
+#: includes/controls/groups/grid-container.php:234
+msgctxt "Grid Container Control"
+msgid "End"
+msgstr "Fim"
+
+#: includes/controls/groups/grid-container.php:141
+#: includes/controls/groups/grid-container.php:169
+msgctxt "Grid Container Control"
+msgid "Stretch"
+msgstr "Esticar"
+
+#: includes/controls/groups/grid-container.php:153
+msgctxt "Grid Container Control"
+msgid "Align Items"
+msgstr "Alinhar Itens"
+
+#: includes/controls/groups/grid-container.php:180
+msgctxt "Grid Container Control"
+msgid "Justify Content"
+msgstr "Justificar o conteúdo"
+
+#: includes/controls/groups/grid-container.php:190
+#: includes/controls/groups/grid-container.php:230
+msgctxt "Grid Container Control"
+msgid "Middle"
+msgstr "Meio"
+
+#: includes/controls/groups/grid-container.php:198
+#: includes/controls/groups/grid-container.php:238
+msgctxt "Grid Container Control"
+msgid "Space Between"
+msgstr "Espaço entre"
+
+#: includes/controls/groups/grid-container.php:202
+#: includes/controls/groups/grid-container.php:242
+msgctxt "Grid Container Control"
+msgid "Space Around"
+msgstr "Espaço ao redor"
+
+#: includes/controls/groups/grid-container.php:206
+#: includes/controls/groups/grid-container.php:246
+msgctxt "Grid Container Control"
+msgid "Space Evenly"
+msgstr "Espaço uniformemente"
+
+#: includes/controls/groups/grid-container.php:220
+msgctxt "Grid Container Control"
+msgid "Align Content"
+msgstr "Alinhar conteúdo"
+
+#: includes/editor-templates/global.php:9
+msgid "Select your structure"
+msgstr "Selecione sua estrutura"
+
+#: includes/editor-templates/global.php:50
+msgid "Which layout would you like to use?"
+msgstr "Qual layout você gostaria de usar?"
+
+#: includes/editor-templates/global.php:58 includes/elements/container.php:341
+msgid "Flexbox"
+msgstr "Flexbox"
+
+#: includes/editor-templates/global.php:66 includes/elements/container.php:342
+msgid "Grid"
+msgstr "Grade"
+
+#: includes/editor-templates/navigator.php:27
+msgid "Close structure"
+msgstr "Fechar estrutura"
+
+#: includes/editor-templates/navigator.php:28
+msgid "Close navigator"
+msgstr "Fechar navegador"
+
+#: includes/editor-templates/panel-elements.php:11
+msgid "Globals"
+msgstr "Globais"
+
+#: includes/elements/container.php:336 includes/elements/container.php:353
+msgid "Container Layout"
+msgstr "Disposição do Contêiner"
+
+#. translators: 1: Link open tag, 2: Link close tag.
+#: includes/widgets/image-carousel.php:326
+#: includes/widgets/image-gallery.php:146 includes/widgets/image.php:223
+msgid "Manage your site’s lightbox settings in the %1$sLightbox panel%2$s."
+msgstr "Gerencie as configurações do lightbox do seu site no %1$spainel Lightbox%2$s."
+
+#: core/admin/admin-notices.php:410
+msgid "Dismiss this notice."
+msgstr "Descartar essa notificação."
+
+#: core/breakpoints/manager.php:324
+msgid "Tablet Portrait"
+msgstr "Tablet Retrato"
+
+#: core/breakpoints/manager.php:329
+msgid "Tablet Landscape"
+msgstr "Paisagem do tablet"
+
+#: core/editor/editor.php:612
+msgid "Editor Top Bar"
+msgstr "Barra Superior do Editor"
+
+#: core/editor/editor.php:614
+msgid "Get a sneak peek of the new Editor powered by React. The beautiful design and experimental layout of the Top bar are just some of the exciting tools on their way. %s"
+msgstr "Dê uma espiada no novo Editor com tecnologia React. O belo design e o layout experimental da barra superior são apenas algumas das ferramentas interessantes a caminho. %s"
+
+#: includes/widgets/alert.php:495 includes/widgets/alert.php:534
+msgid "Dismiss this alert."
+msgstr "Dispensar este alerta."
+
+#: includes/widgets/icon-list.php:521
+msgid "Horizontal Alignment"
+msgstr "Alinhamento horizontal"
+
+#: includes/widgets/icon-list.php:578
+msgid "Adjust Vertical Position"
+msgstr "Ajustar posição vertical"
 
 #: core/kits/documents/tabs/theme-style-form-fields.php:187
 msgid "Accent Color"
@@ -290,10 +494,6 @@ msgstr "Preenchimento do Contêiner"
 msgid "Sets the default space inside the container (Default is 10px)"
 msgstr "Define o Espaço Padrão Dentro do Contêiner (Padrão: 10px)"
 
-#: core/kits/documents/tabs/settings-layout.php:100
-msgid "Gap between elements"
-msgstr "Lacuna Entre Elementos"
-
 #: core/settings/editor-preferences/model.php:143
 msgid "Exit to"
 msgstr "Sair para"
@@ -334,11 +534,6 @@ msgctxt "Flex Container Control"
 msgid "Column - reversed"
 msgstr "Coluna - Reversa"
 
-#: includes/controls/groups/flex-container.php:196
-msgctxt "Flex Container Control"
-msgid "Items within the container can stay in a single line (No wrap), or break into multiple lines (Wrap)."
-msgstr "Os Itens dentro do Contêiner podem permanecer em uma Única Linha (Sem Invólucro) ou quebrar em Várias Linhas (Invólucro)."
-
 #: includes/editor-templates/panel.php:56
 msgid "Now you can choose where you want to go on the site from the following options"
 msgstr "Agora você pode escolher onde você quer ir no Site a partir das seguintes opções"
@@ -354,42 +549,51 @@ msgstr "Altere as Configurações quando quiser em %1$s Preferências do Usuári
 msgid "Item #%d"
 msgstr "Item #%d"
 
+#: app/modules/onboarding/module.php:150
+msgid "There was a problem setting your site name"
+msgstr "Houve um Problema ao Definir o Nome do seu Site"
+
+#: core/kits/documents/tabs/settings-layout.php:100
+msgid "Gap between elements"
+msgstr "Espaço Entre Elementos"
+
+#: includes/controls/groups/flex-container.php:196
+msgctxt "Flex Container Control"
+msgid "Items within the container can stay in a single line (No wrap), or break into multiple lines (Wrap)."
+msgstr "Os Itens dentro do Contêiner podem permanecer em uma Única Linha (Sem Envolver) ou quebrar em Várias Linhas (Envolver)."
+
 #: includes/elements/container.php:313
 msgctxt "Flex Container Control"
 msgid "Gap between elements"
-msgstr "Espaço entre os elementos"
-
-#: includes/widgets/image-carousel.php:237
-msgid "Next Arrow Icon"
-msgstr "Próximo ícone da seta"
-
-#: includes/widgets/alert.php:377
-msgid "Horizontal Position"
-msgstr "Posição horizontal"
-
-#: includes/widgets/alert.php:359
-msgid "Vertical Position"
-msgstr "Posição vertical"
-
-#: includes/widgets/alert.php:140 includes/widgets/alert.php:331
-msgid "Dismiss Icon"
-msgstr "Dispensar Ignorar ícone"
+msgstr "Espaço Entre Elementos"
 
 #: includes/elements/container.php:604
 msgid "Don’t add links to elements nested in this container - it will break the layout."
-msgstr "Não adicione links a elementos aninhados neste contêiner - isso quebrará o layout."
+msgstr "Não Adicione Links a Elementos aninhados neste Contêiner - ele Quebrará o Layout."
+
+#: includes/widgets/alert.php:140 includes/widgets/alert.php:331
+msgid "Dismiss Icon"
+msgstr "Ícone Dispensar"
+
+#: includes/widgets/alert.php:359
+msgid "Vertical Position"
+msgstr "Orientação Vertical"
+
+#: includes/widgets/alert.php:377
+msgid "Horizontal Position"
+msgstr "Orientação Horizontal"
 
 #: includes/widgets/image-carousel.php:182
 msgid "Previous Arrow Icon"
-msgstr "Ícone de seta anterior"
+msgstr "Ícone da Seta Anterior"
 
-#: app/modules/onboarding/module.php:150
-msgid "There was a problem setting your site name"
-msgstr "Ocorreu um problema ao definir o nome do seu site"
+#: includes/widgets/image-carousel.php:237
+msgid "Next Arrow Icon"
+msgstr "Ícone da Seta Próxima"
 
 #: core/editor/notice-bar.php:23
 msgid "Unleash the full power of Elementor's features and web creation tools."
-msgstr "Libere Todo o Poder das Características do Elementor e das Ferramentas de Criação da Web."
+msgstr "Libere Todo o Poder dos experimentos do Elementor e das Ferramentas de Criação da Web."
 
 #: core/admin/admin.php:631 core/role-manager/role-manager.php:161
 #: includes/editor-templates/panel.php:313
@@ -418,7 +622,7 @@ msgstr "Notas"
 #: assets/js/editor.js:8010
 #: assets/js/onboarding.2da315965610a6ac2448.bundle.js:509
 msgid "Upgrade Now"
-msgstr "Atualize agora"
+msgstr "Atualizar Agora"
 
 #: app/modules/onboarding/module.php:132
 msgid "you are not allowed to perform this action"
@@ -671,38 +875,38 @@ msgctxt "Flex Container Control"
 msgid "End"
 msgstr "Fim"
 
-#: core/common/modules/event-tracker/personal-data.php:24
-msgid "Elementor Event Tracker"
-msgstr "Rastreador de eventos do Elementor"
-
-#: core/experiments/manager.php:404
-msgid "Flexbox Container"
-msgstr "Flexbox Container"
-
-#: modules/container-converter/module.php:88
-#: modules/container-converter/module.php:121
-msgid "Copies all of the selected sections and columns and pastes them in a container beneath the original."
-msgstr "Copia todas as seções e colunas selecionadas e cola elas em um bloco abaixo do original."
-
-#: modules/container-converter/module.php:86
-#: modules/container-converter/module.php:119
-msgid "Convert"
-msgstr "Converta"
-
-#: includes/controls/groups/flex-item.php:85
-#: includes/controls/groups/flex-item.php:118
-msgctxt "Flex Item Control"
-msgid "This control will affect contained elements only."
-msgstr "Esse controle irá afetar apenas elementos contidos."
-
 #: includes/controls/groups/flex-item.php:68
 msgctxt "Flex Item Control"
 msgid "Center"
 msgstr "Centralizado"
 
+#: core/common/modules/event-tracker/personal-data.php:24
+msgid "Elementor Event Tracker"
+msgstr "Rastreador de Eventos Elementor"
+
+#: core/experiments/manager.php:404
+msgid "Flexbox Container"
+msgstr "Contêiner Flexível"
+
+#: includes/controls/groups/flex-item.php:85
+#: includes/controls/groups/flex-item.php:118
+msgctxt "Flex Item Control"
+msgid "This control will affect contained elements only."
+msgstr "Este Controle Afetará apenas os Elementos Contidos."
+
+#: modules/container-converter/module.php:86
+#: modules/container-converter/module.php:119
+msgid "Convert"
+msgstr "Converter"
+
+#: modules/container-converter/module.php:88
+#: modules/container-converter/module.php:121
+msgid "Copies all of the selected sections and columns and pastes them in a container beneath the original."
+msgstr "Copia Todas as Seções e Colunas Selecionadas & Cola em um Contêiner abaixo do original."
+
 #: modules/library/documents/page.php:65
 msgid "Add New Page Template"
-msgstr "Adicionar Modelo de Página"
+msgstr "Adicionar Novo Modelo de Página"
 
 #: includes/admin-templates/beta-tester.php:53 assets/js/ai-admin.js:2923
 #: assets/js/ai-admin.js:6522 assets/js/ai.js:3218 assets/js/ai.js:6817
@@ -2077,10 +2281,6 @@ msgstr "Conheça os nossos atributos"
 msgid "Already connected."
 msgstr "Já está conectado."
 
-#: includes/controls/groups/background.php:662
-msgid "Background Position"
-msgstr "Posição do fundo"
-
 #: core/settings/editor-preferences/model.php:65
 msgid "Dark"
 msgstr "Escuro"
@@ -2102,10 +2302,6 @@ msgstr "Conectado como %s"
 msgid "UI Theme"
 msgstr "Tema da Interface de Usuário"
 
-#: core/settings/editor-preferences/model.php:99
-msgid "Enable Lightbox In Editor"
-msgstr "Ativar Lightbox no Editor"
-
 #: core/settings/editor-preferences/model.php:51
 msgid "Preferences"
 msgstr "Preferências"
@@ -2125,18 +2321,6 @@ msgstr "Compartilhamento de Dados de Uso"
 msgid "Connecting to the Library failed. Please try reloading the page and try again"
 msgstr "A Conexão com a Biblioteca falhou. Por favor tente recarregar a pagina e tente novamente"
 
-#: includes/controls/groups/background.php:643
-msgid "Background Size"
-msgstr "Tamanho do fundo"
-
-#: includes/widgets/image-carousel.php:419
-msgid "Pause on Interaction"
-msgstr "Pausar com interação"
-
-#: includes/controls/groups/background.php:651 includes/widgets/image.php:362
-msgid "Contain"
-msgstr "Conter"
-
 #. translators: %s: Video provider
 #: includes/embed.php:175
 msgid "%s Video Player"
@@ -2149,6 +2333,26 @@ msgstr "Escolha entre o modo Claro ou Escuro, ou use Detecção Automática para
 #: includes/controls/groups/background.php:650 includes/widgets/image.php:361
 msgid "Cover"
 msgstr "Cobrir"
+
+#: includes/widgets/image-carousel.php:419
+msgid "Pause on Interaction"
+msgstr "Pausar com Interação"
+
+#: core/settings/editor-preferences/model.php:99
+msgid "Enable Lightbox In Editor"
+msgstr "Habilitar Lightbox no Editor"
+
+#: includes/controls/groups/background.php:643
+msgid "Background Size"
+msgstr "Tamanho do Fundo"
+
+#: includes/controls/groups/background.php:651 includes/widgets/image.php:362
+msgid "Contain"
+msgstr "Contido"
+
+#: includes/controls/groups/background.php:662
+msgid "Background Position"
+msgstr "Posição do Fundo"
 
 #: modules/promotions/admin-menu-items/custom-icons-promotion-item.php:23
 msgid "Don't rely solely on the FontAwesome icons everyone else is using! Differentiate your website and your style with custom icons you can upload from your favorite icons source."
@@ -2498,6 +2702,12 @@ msgstr "O Elementor tentará limpar os arquivos não filtrados, removendo potenc
 #: core/files/file-types/svg.php:100 core/files/uploads-manager.php:543
 msgid "This file is not allowed for security reasons."
 msgstr "Este tipo de arquivo não é permitido por motivos de segurança"
+
+#. translators: 1: Link open tag, 2: Link close tag.
+#: includes/elements/column.php:910 includes/elements/container.php:1723
+#: includes/elements/section.php:1371 includes/widgets/common.php:1141
+msgid "Responsive visibility will take effect only on %1$s preview mode %2$s or live page, and not while editing in Elementor."
+msgstr "A visibilidade responsiva terá efeito apenas no modo de visualização %1$s %2$s ou na página ao vivo, e não durante a edição no Elementor."
 
 #: includes/elements/column.php:211
 msgid "Horizontal Align"
@@ -2995,10 +3205,6 @@ msgstr "A navegação fácil chegou!"
 msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
 msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
 
-#: core/settings/editor-preferences/model.php:92
-msgid "Show editing handles when hovering over the element edit button."
-msgstr "Mostra controles de edição ao passar o mouse sobre o botão de edição."
-
 #: core/admin/admin-notices.php:274
 msgid ""
 "You created over 10 pages with Elementor. Great job! If you can spare a minute,\n"
@@ -3006,6 +3212,10 @@ msgid ""
 msgstr ""
 "Você criou mais de 10 páginas com o Elementor. Ótimo trabalho! Se você puder nos dar um minuto,\n"
 "\t\t\t\tpor favor, nos ajude, deixando uma revisão de cinco estrelas no WordPress.org."
+
+#: core/settings/editor-preferences/model.php:92
+msgid "Show editing handles when hovering over the element edit button."
+msgstr "Exibe Controles de Edição ao passar o mouse sobre o botão de Edição."
 
 #: core/kits/documents/tabs/settings-lightbox.php:76 includes/frontend.php:1390
 #: includes/widgets/google-maps.php:149 assets/js/ai-admin.js:5094
@@ -3037,10 +3247,6 @@ msgstr "Informação do vídeo"
 msgid "Copy"
 msgstr "Copiar"
 
-#: includes/editor-templates/global.php:47
-msgid "Drag widget here"
-msgstr "Solte o widget aqui"
-
 #: includes/controls/groups/css-filter.php:166
 msgctxt "Filter Control"
 msgid "CSS Filters"
@@ -3060,26 +3266,6 @@ msgstr "Contraste"
 msgctxt "Filter Control"
 msgid "Brightness"
 msgstr "Brilho"
-
-#: includes/controls/groups/background.php:523 includes/widgets/video.php:267
-msgid "Specify an end time (in seconds)"
-msgstr "Especifique um tempo final (em segundos)"
-
-#: includes/controls/groups/background.php:521 includes/widgets/video.php:265
-msgid "End Time"
-msgstr "Tempo final"
-
-#: includes/controls/groups/background.php:509 includes/widgets/video.php:255
-msgid "Start Time"
-msgstr "Tempo de Início"
-
-#: includes/controls/groups/background.php:511 includes/widgets/video.php:257
-msgid "Specify a start time (in seconds)"
-msgstr "Especifique um tempo de início (em segundos)"
-
-#: core/admin/feedback.php:114
-msgid "Wait! Don't deactivate Elementor. You have to activate both Elementor and Elementor Pro in order for the plugin to work."
-msgstr "Espere! Não desative o Elementor. Você precisa ativar o Elementor e o Elementor Pro para que o plugin funcione."
 
 #: core/admin/feedback.php:112
 msgid "I have Elementor Pro"
@@ -3141,9 +3327,33 @@ msgstr "Desfoque"
 msgid "Please make sure the ID is unique and not used elsewhere on the page this form is displayed. This field allows %1$sA-z 0-9%2$s & underscore chars without spaces."
 msgstr "Certifique-se de que o ID é único e não usado em outro lugar na Página que este Formulário é exibido. Este Campo permite %1$sA-z 0-9%2$s & caracteres sublinhado sem espaços."
 
+#: core/admin/feedback.php:114
+msgid "Wait! Don't deactivate Elementor. You have to activate both Elementor and Elementor Pro in order for the plugin to work."
+msgstr "Espere! Não Desative o Elementor. Você precisa Habilitar o Elementor e o Elementor Pro para que o Plugin funcione."
+
+#: includes/controls/groups/background.php:509 includes/widgets/video.php:255
+msgid "Start Time"
+msgstr "Hora de Início"
+
+#: includes/controls/groups/background.php:511 includes/widgets/video.php:257
+msgid "Specify a start time (in seconds)"
+msgstr "Especifique um Tempo de Início (em segundos)"
+
+#: includes/controls/groups/background.php:521 includes/widgets/video.php:265
+msgid "End Time"
+msgstr "Hora de Término"
+
+#: includes/controls/groups/background.php:523 includes/widgets/video.php:267
+msgid "Specify an end time (in seconds)"
+msgstr "Especifique um Tempo Final (em segundos)"
+
+#: includes/editor-templates/global.php:47
+msgid "Drag widget here"
+msgstr "Solte o Widget aqui"
+
 #: core/admin/admin.php:227 assets/js/admin.js:2025 assets/js/gutenberg.js:109
 msgid "Back to WordPress Editor"
-msgstr "Voltar ao editor do WordPress"
+msgstr "Voltar ao Editor do WordPress"
 
 #. translators: %s: Document title.
 #: core/documents-manager.php:385
@@ -3228,14 +3438,6 @@ msgstr "Adicionar novo"
 msgid "Create Your First %s"
 msgstr "Crie seu primeiro %s"
 
-#: includes/admin-templates/new-template.php:57
-msgid "Use templates to create the different pieces of your site, and reuse them with one click whenever needed."
-msgstr "Usar modelos para criar as peças diferentes do seu site e reutilizá-los com um clique, sempre que necessário."
-
-#: modules/promotions/admin-menu-items/custom-fonts-promotion-item.php:23
-msgid "Custom Fonts allows you to add your self-hosted fonts and use them on your Elementor projects to create a unique brand language."
-msgstr "Fontes personalizadas permitem adicionar fontes hospedadas no seu servidor e usá-las em seus projetos Elementor para criar uma identidade exclusiva."
-
 #: modules/promotions/admin-menu-items/custom-fonts-promotion-item.php:19
 msgid "Add Your Custom Fonts"
 msgstr "Adicione suas fontes personalizadas"
@@ -3265,14 +3467,6 @@ msgstr "Documento"
 #: core/common/modules/ajax/module.php:165
 msgid "Action not found."
 msgstr "Ação não encontrada."
-
-#: includes/template-library/sources/local.php:1336
-msgid "Add templates and reuse them across your website. Easily export and import them to any other project, for an optimized workflow."
-msgstr "Adicione modelos e reutilize-os em seu website. Exporte e importe facilmente para qualquer outro projeto, para um fluxo de trabalho otimizado."
-
-#: core/dynamic-tags/tag.php:115 includes/settings/settings.php:362
-msgid "Fallback"
-msgstr "Recuo"
 
 #: includes/frontend.php:1392 includes/widgets/video.php:905
 msgid "Play Video"
@@ -3345,10 +3539,6 @@ msgstr "Escolha o tipo de modelo"
 msgid "Select the type of template you want to work on"
 msgstr "Selecione o tipo de modelo em que você deseja trabalhar"
 
-#: core/document-types/page-base.php:121
-msgid "Body Style"
-msgstr "Estilo do body"
-
 #: includes/widgets/common.php:226 includes/widgets/icon-list.php:104
 #: includes/widgets/icon-list.php:196
 msgid "Inline"
@@ -3365,6 +3555,26 @@ msgstr "Configurações de %s"
 msgctxt "Border Control"
 msgid "Groove"
 msgstr "Sulco"
+
+#: includes/template-library/sources/local.php:1336
+msgid "Add templates and reuse them across your website. Easily export and import them to any other project, for an optimized workflow."
+msgstr "Adicione Modelos e reutilize-os em seu Site. Exporte e Importe facilmente para qualquer outro projeto, para um Fluxo de Trabalho otimizado."
+
+#: modules/promotions/admin-menu-items/custom-fonts-promotion-item.php:23
+msgid "Custom Fonts allows you to add your self-hosted fonts and use them on your Elementor projects to create a unique brand language."
+msgstr "Fontes Personalizadas permitem Adicionar Fontes hospedadas no seu servidor e usá-las em seus projetos Elementor para Criar uma identidade Exclusiva."
+
+#: core/document-types/page-base.php:121
+msgid "Body Style"
+msgstr "Estilo do Corpo"
+
+#: core/dynamic-tags/tag.php:115 includes/settings/settings.php:362
+msgid "Fallback"
+msgstr "Fallback"
+
+#: includes/admin-templates/new-template.php:57
+msgid "Use templates to create the different pieces of your site, and reuse them with one click whenever needed."
+msgstr "Usar Modelos para Criar as peças diferentes do seu Site e reutilizá-los com um clique, sempre que necessário."
 
 #: includes/widgets/image-carousel.php:138
 msgid "Set how many slides are scrolled per swipe."
@@ -3648,7 +3858,7 @@ msgstr "Nenhum resultado foi encontrado"
 #: includes/template-library/sources/local.php:609
 #: includes/template-library/sources/local.php:751
 msgid "Access denied."
-msgstr "Acesso negado."
+msgstr "Acesso Negado."
 
 #: includes/settings/settings.php:255
 msgid "Disable Default Fonts"
@@ -3780,11 +3990,6 @@ msgstr "Controle de Versão"
 msgid "Integrations"
 msgstr "Integrações"
 
-#. translators: %s: Elementor version.
-#: includes/settings/tools.php:327
-msgid "Experiencing an issue with Elementor version %s? Rollback to a previous version before the issue appeared."
-msgstr "Incidentes acontecendo com a versão %s do Elementor? Reverta para uma versão de anterior ao aparecimente do problema."
-
 #: includes/controls/url.php:111
 msgid "Add nofollow"
 msgstr "Adicionar nofollow"
@@ -3865,9 +4070,14 @@ msgstr "Atenção: não recomendamos a atualização para uma versão beta em si
 msgid "Turn-on Beta Tester, to get notified when a new beta version of Elementor or Elementor Pro is available. The Beta version will not install automatically. You always have the option to ignore it."
 msgstr "Ative o Testador Beta, para ser notificado quando uma nova versão beta do Elementor ou Elementor Pro estiver disponível. A versão beta não será instalada automaticamente. Você sempre terá a opção de ignorar isso."
 
-#: includes/settings/settings.php:310
-msgid "Use internal CSS that is embedded in the head of the page. For troubleshooting server configuration conflicts and managing development environments."
-msgstr "Usa o CSS interno fornecido no cabeçalho da página. Usado para localizar conflitos na configuração do servidor e gerenciar ambientes de desenvolvimento."
+#: core/kits/documents/tabs/settings-layout.php:121
+msgid "Sets the default space between widgets (Default: 20px)"
+msgstr "Define o espaço padrão entre os widgets (Padrão: 20px)"
+
+#. translators: %s: Elementor version.
+#: includes/settings/tools.php:327
+msgid "Experiencing an issue with Elementor version %s? Rollback to a previous version before the issue appeared."
+msgstr "Incidentes acontecendo com a Versão %s do Elementor? Reverta para uma Versão de anterior ao aparecimente do problema."
 
 #: includes/settings/settings.php:307
 msgid "External File"
@@ -3884,6 +4094,10 @@ msgstr "Método de impressão CSS"
 #: includes/settings/settings.php:310
 msgid "Use external CSS files for all generated stylesheets. Choose this setting for better performance (recommended)."
 msgstr "Use arquivos CSS externos para todas folhas de estilos geradas. Escolha esta configuração para melhor desempenho (recomendado)."
+
+#: includes/settings/settings.php:310
+msgid "Use internal CSS that is embedded in the head of the page. For troubleshooting server configuration conflicts and managing development environments."
+msgstr "Usa o CSS interno fornecido no Cabeçalho da Página. Usado para localizar conflitos na Configuração do servidor e gerenciar ambientes de desenvolvimento."
 
 #: includes/settings/settings.php:322
 msgid "For troubleshooting server configuration conflicts."
@@ -3984,17 +4198,9 @@ msgstr "O Modo de manutenção retorna o código HTTP 503, então os mecanismos 
 msgid "Maintenance Mode"
 msgstr "Modo de manutenção"
 
-#: includes/maintenance-mode.php:220
-msgid "Choose between Coming Soon mode (returning HTTP 200 code) or Maintenance Mode (returning HTTP 503 code)."
-msgstr "Escolha entre os modos Em Breve (que retorna o código HTTP 200) ou Em Manutenção (que retorna o código HTTP 503)."
-
 #: includes/maintenance-mode.php:217
 msgid "Maintenance"
 msgstr "Manutenção"
-
-#: includes/maintenance-mode.php:206
-msgid "Set your entire website as MAINTENANCE MODE, meaning the site is offline temporarily for maintenance, or set it as COMING SOON mode, meaning the site is offline until it is ready to be launched."
-msgstr "Coloque todo seu site em MODO DE MANUTENÇÃO, isso significa que o site ficará temporariamente em manutenção, ou coloque-o no modo EM BREVE, isso significa que o site ficará offline até que esteja pronto para ser lançado."
 
 #: includes/maintenance-mode.php:226
 msgid "Coming Soon returns HTTP 200 code, meaning the site is ready to be indexed."
@@ -4011,6 +4217,14 @@ msgstr "Funções"
 #: includes/widgets/text-editor.php:120 includes/widgets/text-editor.php:252
 msgid "Drop Cap"
 msgstr "Letra capitular"
+
+#: includes/maintenance-mode.php:206
+msgid "Set your entire website as MAINTENANCE MODE, meaning the site is offline temporarily for maintenance, or set it as COMING SOON mode, meaning the site is offline until it is ready to be launched."
+msgstr "Coloque todo seu Site em MODO DE MANUTENÇÃO, isso significa que o Site ficará temporariamente em manutenção, ou coloque-o no modo EM BREVE, isso significa que o Site ficará offline até que esteja pronto para ser lançado."
+
+#: includes/maintenance-mode.php:220
+msgid "Choose between Coming Soon mode (returning HTTP 200 code) or Maintenance Mode (returning HTTP 503 code)."
+msgstr "Escolha entre os Modos Em Breve (que retorna o Código HTTP 200) ou Em Manutenção (que retorna o Código HTTP 503)."
 
 #: includes/elements/container.php:1255 includes/elements/section.php:1082
 msgid "Bring to Front"
@@ -4150,10 +4364,6 @@ msgstr "ID CSS"
 msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
 msgstr "Adicione seu id personalizado SEM o símbolo. Ex.: meu-id"
 
-#: includes/widgets/tabs.php:253
-msgid "Navigation Width"
-msgstr "Largura da navegação"
-
 #: core/kits/documents/tabs/theme-style-buttons.php:166
 #: core/kits/documents/tabs/theme-style-images.php:134
 #: core/kits/documents/tabs/theme-style-typography.php:154
@@ -4175,6 +4385,10 @@ msgstr "Largura da navegação"
 #: modules/shapes/widgets/text-path.php:549
 msgid "Hover"
 msgstr "Hover"
+
+#: includes/widgets/tabs.php:253
+msgid "Navigation Width"
+msgstr "Largura da Navegação"
 
 #: includes/controls/groups/background.php:191
 msgctxt "Background Control"
@@ -4224,17 +4438,17 @@ msgstr "Tutoriais em vídeo"
 msgid "View Elementor Video Tutorials"
 msgstr "Ver tutoriais em vídeo do Elementor"
 
-#: includes/settings/settings.php:259
-msgid "Checking this box will disable Elementor's Default Fonts, and make Elementor inherit the fonts from your theme."
-msgstr "Selecionando esta opção irá desativar as Fontes Padrão do Elementor, passando a utilizar as fontes do seu tema."
-
-#: includes/settings/settings.php:251
-msgid "Checking this box will disable Elementor's Default Colors, and make Elementor inherit the colors from your theme."
-msgstr "Selecionando esta opção irá desativar as Cores Padrão do Elementor, passando a utilizar as cores do seu tema."
-
 #: core/admin/admin.php:380
 msgid "Docs & FAQs"
 msgstr "Documentação e perguntas frequentes"
+
+#: includes/settings/settings.php:251
+msgid "Checking this box will disable Elementor's Default Colors, and make Elementor inherit the colors from your theme."
+msgstr "Desabilite as Cores do Tema para que o Elementor Herde as Cores Definidas no Sistema de Design."
+
+#: includes/settings/settings.php:259
+msgid "Checking this box will disable Elementor's Default Fonts, and make Elementor inherit the fonts from your theme."
+msgstr "Desabilite as Fontes do Tema para que o Elementor Herde as Fontes Definidas no Sistema de Design."
 
 #: includes/settings/tools.php:307
 msgid "Update Site Address (URL)"
@@ -4271,14 +4485,6 @@ msgstr "Parece que o recurso de revisão de posts está indisponível no seu sit
 msgid "%1$s ago (%2$s)"
 msgstr "%1$s atrás (%2$s)"
 
-#: includes/settings/tools.php:311
-msgid "Enter your old and new URLs for your WordPress installation, to update all Elementor data (Relevant for domain transfers or move to 'HTTPS')."
-msgstr "Digite suas URLs antigas e novas para sua instalação do WordPress, para atualizar todos os dados do Elementor (relevante para transferências de domínio ou mover para 'HTTPS')."
-
-#: modules/history/views/revisions-panel-template.php:26
-msgid "Revision history lets you save your previous versions of your work, and restore them any time."
-msgstr "O histórico de revisões permite que você salve as versões anteriores do seu trabalho, e recupere-os a qualquer momento."
-
 #. translators: %s: WordPress backups documentation.
 #: includes/settings/tools.php:297
 msgid "<strong>Important:</strong> It is strongly recommended that you <a target=\"_blank\" href=\"%s\">backup your database</a> before using Replace URL."
@@ -4293,12 +4499,20 @@ msgstr "j \\d\\e M à\\s H:i"
 msgid "Start designing your page and you will be able to see the entire revision history here."
 msgstr "Comece o design de sua página e você poderá ver aqui todo o histórico de revisões."
 
+#: modules/history/views/revisions-panel-template.php:26
+msgid "Revision history lets you save your previous versions of your work, and restore them any time."
+msgstr "O histórico de revisões permite que você salve as Versões anteriores do seu Trabalho, e recupere-os a qualquer momento."
+
 #. translators: 1: Minimum recommended_memory, 2: Preferred memory, 3:
 #. WordPress wp-config memory documentation.
 #: modules/system-info/reporters/server.php:170
 msgctxt "System Info"
 msgid "We recommend setting memory to at least %1$s. (%2$s or higher is preferred) For more information, read about <a href=\"%3$s\">how to increase memory allocated to PHP</a>."
 msgstr "Recomendamos definir a memória para, pelo menos %1$s. (%2$s ou superior é preferido) Para obter mais Informações, leia sobre <a href=\"%3$s\">como aumentar a memória alocada ao PHP</a>."
+
+#: includes/settings/tools.php:311
+msgid "Enter your old and new URLs for your WordPress installation, to update all Elementor data (Relevant for domain transfers or move to 'HTTPS')."
+msgstr "Digite suas URLs antigas e novas para sua instalação do WordPress, para Atualizar todos os dados do Elementor (relevante para transferências de domínio ou mover para 'HTTPS')."
 
 #: includes/widgets/counter.php:170
 msgid "Thousand Separator"
@@ -4381,7 +4595,7 @@ msgstr "Atualizar mudanças na página"
 
 #: includes/editor-templates/panel.php:192
 msgid "%s are disabled"
-msgstr "%s está desativado"
+msgstr "%s está Desativado"
 
 #: core/admin/admin-notices.php:240
 msgid "No thanks"
@@ -4402,6 +4616,10 @@ msgstr "Esticar a seção para caber em"
 #: includes/elements/section.php:494
 msgid "Stretch the section to the full width of the page using JS."
 msgstr "Estique a seção até a largura total da página usando JS."
+
+#: core/kits/documents/tabs/settings-layout.php:74
+msgid "Sets the default width of the content area (Default: 1140px)"
+msgstr "Define a largura padrão da área de conteúdo (Padrão: 1140px)"
 
 #: core/admin/admin-notices.php:229 includes/elements/section.php:494
 #: includes/settings/settings-page.php:374
@@ -4798,18 +5016,18 @@ msgstr "Botão Comprar"
 msgid "There is a new version of Elementor Page Builder available. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">update now</a>."
 msgstr "Há uma nova versão do Elementor Page Builder disponível. <a href=\"%1$s\" class=\"thickbox open-plugin-details-modal\" aria-label=\"%2$s\"> Ver Detalhes da Versão %3$s</a> ou <a href=\"%4$s\" class=\"update-link\" aria-label=\"%5$s\">Atualizar Agora</a>."
 
+#: includes/widgets/audio.php:122
+msgid "Visual Player"
+msgstr "ReProdutor Visual"
+
 #: includes/widgets/audio.php:221
 msgid "Play Counts"
-msgstr "Play contadores"
+msgstr "Contagem de Reproduções"
 
 #: includes/elements/column.php:354 includes/elements/container.php:737
 #: includes/elements/section.php:632
 msgid "Background Overlay"
-msgstr "Sobreposição de fundo"
-
-#: includes/widgets/audio.php:122
-msgid "Visual Player"
-msgstr "Reprodutor Visual"
+msgstr "Sobreposição de Fundo"
 
 #: core/kits/documents/tabs/settings-background.php:18
 #: includes/elements/column.php:273 includes/elements/container.php:649
@@ -4986,6 +5204,10 @@ msgstr "Fade"
 msgctxt "Image Size Control"
 msgid "Full"
 msgstr "Completo"
+
+#: includes/controls/gallery.php:92
+msgid "Edit gallery"
+msgstr "Editar Galeria"
 
 #: includes/widgets/image-carousel.php:172
 msgid "Dots"
@@ -6650,10 +6872,6 @@ msgstr "Arredondamento"
 msgid "https://your-link.com"
 msgstr "https://seu-link.com.br"
 
-#: includes/widgets/alert.php:129
-msgid "I am a description. Click the edit button to change this text."
-msgstr "Eu sou uma descrição. Clique no botão editar para alterar este texto."
-
 #: includes/base/element-base.php:792 includes/base/element-base.php:804
 #: includes/widgets/divider.php:925 includes/widgets/icon-box.php:420
 #: includes/widgets/icon.php:355 modules/shapes/widgets/text-path.php:268
@@ -6845,6 +7063,10 @@ msgstr "Âncora do menu"
 #: includes/elements/section.php:1262 includes/widgets/common.php:595
 msgid "CSS Classes"
 msgstr "Classes CSS"
+
+#: includes/widgets/alert.php:129
+msgid "I am a description. Click the edit button to change this text."
+msgstr "Eu sou uma Descrição. Clique no Botão Editar para Alterar este Texto."
 
 #: modules/nested-tabs/widgets/nested-tabs.php:199
 #: modules/nested-tabs/widgets/nested-tabs.php:239
