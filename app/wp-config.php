@@ -51,6 +51,10 @@ define( 'AS3CF_SETTINGS', serialize( array(
 	'delivery-domain' => 'files.adventistas.org'
 ) ) );
 
+define( 'FORCE_SSL', true );
+define( 'FORCE_SSL_ADMIN',true );
+$_SERVER['HTTPS']='on';
+
 
 /**
  * Authentication Unique Keys and Salts.
