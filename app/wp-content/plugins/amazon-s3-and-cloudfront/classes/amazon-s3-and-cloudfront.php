@@ -1554,16 +1554,14 @@ class Amazon_S3_And_CloudFront extends AS3CF_Plugin_Base {
 	}
 
 	/**
-	 * Does file exist local
+	 * Does file exist locally.
 	 *
 	 * @param string $filename
 	 * @param string $time
 	 *
 	 * @return bool
 	 */
-	function does_file_exist_local( $filename, $time ) {
-		global $wpdb;
-
+	public function does_file_exist_local( $filename, $time ) {
 		$path = wp_upload_dir( $time );
 		$path = ltrim( $path['subdir'], '/' );
 
@@ -1571,18 +1569,6 @@ class Amazon_S3_And_CloudFront extends AS3CF_Plugin_Base {
 			$path = trailingslashit( $path );
 		}
 		$file = $path . $filename;
-
-		// WordPress doesn't check its own basic record, so we will.
-		$sql = $wpdb->prepare( "
-			SELECT COUNT(*)
-			FROM $wpdb->postmeta
-			WHERE meta_key = %s
-			AND meta_value = %s
-		", '_wp_attached_file', $file );
-
-		if ( (bool) $wpdb->get_var( $sql ) ) {
-			return true;
-		}
 
 		// Check our records of local source path as it also covers original_image.
 		if ( ! empty( Media_Library_Item::get_by_source_path( array( $file ), array(), true, true ) ) ) {
@@ -2509,6 +2495,7 @@ class Amazon_S3_And_CloudFront extends AS3CF_Plugin_Base {
 		$this->http_prepare_download_log();
 		$this->check_for_gd_imagick();
 		$this->check_for_items_table();
+		$this->init_admin_footer();
 
 		do_action( 'as3cf_plugin_load' );
 	}
@@ -3219,7 +3206,7 @@ class Amazon_S3_And_CloudFront extends AS3CF_Plugin_Base {
 		$output .= "\r\n";
 
 		$output .= 'Basic Auth: ';
-		if ( isset( $_SERVER['REMOTE_USER'] ) || isset( $_SERVER['PHP_AUTH_USER'] ) || isset( $_SERVER['REDIRECT_REMOTE_USER'] ) ) {
+		if ( ! empty( $_SERVER['REMOTE_USER'] ) || ! empty( $_SERVER['PHP_AUTH_USER'] ) || ! empty( $_SERVER['REDIRECT_REMOTE_USER'] ) ) {
 			$output .= 'Enabled';
 		} else {
 			$output .= 'Disabled';
@@ -3939,8 +3926,14 @@ class Amazon_S3_And_CloudFront extends AS3CF_Plugin_Base {
 					}
 				}
 
+				// Let other parts of the plugin add/update the media counts on a per-blog basis.
+				$attachment_counts = apply_filters( 'as3cf_media_counts_for_blog', $attachment_counts, $blog_id, $table_prefix );
+
 				$this->restore_current_blog();
 			}
+
+			// Let other parts of the plugin add/update the complete media counts.
+			$attachment_counts = apply_filters( 'as3cf_media_counts', $attachment_counts );
 
 			ksort( $attachment_counts );
 
@@ -4063,6 +4056,17 @@ class Amazon_S3_And_CloudFront extends AS3CF_Plugin_Base {
 	 */
 	protected static function get_utm_source() {
 		return 'OS3+Free';
+	}
+
+	/**
+	 * Get UTM content for WP Engine URL.
+	 *
+	 * @param string $content
+	 *
+	 * @return string
+	 */
+	protected static function get_wpe_url_utm_content( $content = 'plugin_footer_text' ) {
+		return 'ome_free_' . $content;
 	}
 
 	/**
@@ -4265,9 +4269,13 @@ class Amazon_S3_And_CloudFront extends AS3CF_Plugin_Base {
 	 *
 	 * @param string $url
 	 *
-	 * @return string
+	 * @return string|WP_Error
 	 */
 	public function maybe_remove_query_string( $url ) {
+		if ( ! is_string( $url ) ) {
+			return $url;
+		}
+
 		$parts = explode( '?', $url );
 
 		return reset( $parts );
