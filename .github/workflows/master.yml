@@ -1,151 +1,86 @@
-on:
-  push:
-    branches: [master]
-  workflow_dispatch:
-
 jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     environment: master
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v4
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
 
-    - name: Transform wp-config.php
-      run: |
-        echo "Init transform: wp-config.php"
+      - name: Transform wp-config.php
+        run: |
+          echo "Init transform: wp-config.php"
 
-        # Função para escapar caracteres especiais em Bash
-        escape_sed() {
-          echo "$1" | sed -e 's/[\/&]/\\&/g'
-        }
+          # Função para escapar caracteres especiais em Bash
+          escape_sed() {
+            echo "$1" | sed -e 's/[\/&]/\\&/g'
+          }
 
-        sed -i "s/WP_DB_NAME/$(escape_sed '${{ secrets.WP_DB_NAME }}')/g" ./app/wp-config.php
-        sed -i "s/WP_DB_USER/$(escape_sed '${{ secrets.WP_DB_USER }}')/g" ./app/wp-config.php
-        sed -i "s/WP_DB_PASSWORD/$(escape_sed '${{ secrets.WP_DB_PASSWORD }}')/g" ./app/wp-config.php
-        sed -i "s/WP_DB_HOST/$(escape_sed '${{ secrets.WP_DB_HOST }}')/g" ./app/wp-config.php
-        sed -i "s/WP_S3_ACCESS_KEY/$(escape_sed '${{ secrets.WP_S3_ACCESS_KEY }}')/g" ./app/wp-config.php
-        sed -i "s/WP_S3_SECRET_KEY/$(escape_sed '${{ secrets.WP_S3_SECRET_KEY }}')/g" ./app/wp-config.php
-        sed -i "s/WP_S3_BUCKET/$(escape_sed '${{ secrets.WP_S3_BUCKET }}')/g" ./app/wp-config.php
+          sed -i "s/WP_DB_NAME/$(escape_sed '${{ secrets.WP_DB_NAME }}')/g" ./app/wp-config.php
+          sed -i "s/WP_DB_USER/$(escape_sed '${{ secrets.WP_DB_USER }}')/g" ./app/wp-config.php
+          sed -i "s/WP_DB_PASSWORD/$(escape_sed '${{ secrets.WP_DB_PASSWORD }}')/g" ./app/wp-config.php
+          sed -i "s/WP_DB_HOST/$(escape_sed '${{ secrets.WP_DB_HOST }}')/g" ./app/wp-config.php
+          sed -i "s/WP_S3_ACCESS_KEY/$(escape_sed '${{ secrets.WP_S3_ACCESS_KEY }}')/g" ./app/wp-config.php
+          sed -i "s/WP_S3_SECRET_KEY/$(escape_sed '${{ secrets.WP_S3_SECRET_KEY }}')/g" ./app/wp-config.php
+          sed -i "s/WP_S3_BUCKET/$(escape_sed '${{ secrets.WP_S3_BUCKET }}')/g" ./app/wp-config.php
 
-        echo "End transform: wp-config.php"
+          echo "End transform: wp-config.php"
 
-    - name: 📤 Upload Files to Server
-      uses: appleboy/scp-action@v0.1.7
-      with:
-        host: ${{ secrets.FTP_HOST }}
-        port: 65002
-        username: ${{ secrets.FTP_USER }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
-        source: "./app/*"
-        target: "/tmp/wordpress-deploy/"
-        strip_components: 0
+      - name: 🚀 Smart Deploy to Server
+        uses: easingthemes/ssh-deploy@main
+        with:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SOURCE: "./app/"
+          REMOTE_HOST: ${{ secrets.FTP_HOST }}
+          REMOTE_PORT: 65002
+          REMOTE_USER: ${{ secrets.FTP_USER }}
+          TARGET: "/home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1"
+          EXCLUDE: "/dist/, /node_modules/"
+          BACKUP: false
+          REMOVE_OLD_FILES: true
+          STRIP_COMPONENTS: 0
+          SCRIPT_BEFORE: |
+            cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1
+            echo "🧹 Iniciando a limpeza do diretório do site..."
 
-    - name: 🚀 Smart Deploy to Server
-      uses: appleboy/ssh-action@v1.0.3
-      with:
-        host: ${{ secrets.FTP_HOST }}
-        port: 65002
-        username: ${{ secrets.FTP_USER }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
-        script: |
-          cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1
-          echo "🧹 Limpando TUDO do diretório html..."
-          
-          # Preservar APENAS os uploads (arquivos de mídia dos usuários)
-          if [ -d "wp-content/uploads" ]; then
-            echo "📁 Preservando wp-content/uploads (arquivos de mídia)"
-            mkdir -p /tmp/uploads-backup
-            cp -r wp-content/uploads/* /tmp/uploads-backup/
-            echo "✅ Uploads preservados em /tmp/uploads-backup"
-          else
-            echo "⚠️ Diretório wp-content/uploads não encontrado"
-          fi
-          
-          # APAGAR TUDO do diretório atual (SEM EXCEÇÃO)
-          echo "🗑️ APAGANDO TUDO do diretório html..."
-          
-          # Forçar remoção de pastas que começam com 'old' primeiro
-          echo "🧹 Removendo especificamente pastas 'old*'..."
-          for item in * .*; do
-            if [[ "$item" == old* ]]; then
-              echo "⚠️ Encontrada pasta/arquivo 'old*': $item - REMOVENDO..."
-              rm -rf "$item" 2>/dev/null || echo "Removido: $item"
+            # 1. Mover o diretório de uploads para um local temporário
+            if [ -d "wp-content/uploads" ]; then
+              echo "📁 Encontrado 'wp-content/uploads'. Movendo para /tmp/uploads-backup."
+              mkdir -p /tmp/uploads-backup
+              mv wp-content/uploads /tmp/uploads-backup/
+              echo "✅ 'uploads' movido com sucesso."
+            else
+              echo "⚠️ 'wp-content/uploads' não encontrado. Nenhum backup necessário."
             fi
-          done
-          
-          # Listar o que existe antes de apagar
-          echo "📋 Conteúdo atual do diretório:"
-          ls -la
-          
-          # Remover TUDO (arquivos, pastas, ocultos, qualquer coisa)
-          echo "🧹 Removendo TUDO..."
-          
-          # Comando específico para pastas 'old*'
-          echo "🔍 Procurando e removendo pastas 'old*'..."
-          find . -maxdepth 1 -name "old*" -exec rm -rf {} + 2>/dev/null || echo "Nenhuma pasta old* encontrada"
-          
-          # Remover tudo o resto
-          rm -rf .* * 2>/dev/null || echo "Remoção executada"
-          
-          # Verificar se realmente está vazio
-          if [ "$(ls -A)" ]; then
-            echo "⚠️ Ainda há conteúdo, forçando remoção total..."
-            # Comando mais agressivo
-            find . -mindepth 1 -exec rm -rf {} + 2>/dev/null || echo "Remoção forçada executada"
-          fi
-          
-          # Verificação final
-          echo "🔍 Verificação final - diretório deve estar vazio:"
-          ls -la
-          
-          echo "✅ Diretório html completamente limpo"
-          
-          echo "🔄 Copiando arquivos do diretório temporário..."
-          cp -r /tmp/wordpress-deploy/* ./
-          echo "✅ Arquivos copiados com sucesso"
-          
-          echo "🔄 Restaurando uploads preservados..."
-          
-          # Restaurar APENAS os uploads
-          if [ -d "/tmp/uploads-backup" ]; then
-            echo "📁 Restaurando wp-content/uploads..."
-            mkdir -p wp-content/uploads
-            cp -r /tmp/uploads-backup/* wp-content/uploads/
-            echo "✅ Uploads restaurados com sucesso"
-            
-            # Limpar backup temporário
-            rm -rf /tmp/uploads-backup
-            echo "🗑️ Backup temporário removido"
-          else
-            echo "⚠️ Nenhum backup de uploads encontrado"
-          fi
-          
-          # Limpar diretório temporário de deploy
-          rm -rf /tmp/wordpress-deploy
-          echo "🗑️ Diretório temporário de deploy removido"
-          
-          # Ajustar permissões
-          echo "🔐 Ajustando permissões dos arquivos..."
-          find wp-content -type d -exec chmod 755 {} \;
-          find wp-content -type f -exec chmod 644 {} \;
-          chmod 755 wp-content
-          
-          # Verificação final - garantir que não há resíduos
-          echo "🔍 Verificação final - diretório deve conter apenas WordPress + uploads:"
-          ls -la
-          
-          # Verificação específica para pastas 'old*'
-          echo "🧹 Verificação final - procurando pastas 'old*'..."
-          if [ "$(find . -maxdepth 1 -name 'old*' -type d)" ]; then
-            echo "⚠️ ATENÇÃO: Pastas 'old*' encontradas após deploy!"
-            find . -maxdepth 1 -name 'old*' -type d -exec ls -la {} \;
-            echo "🗑️ Removendo pastas 'old*' encontradas..."
-            find . -maxdepth 1 -name 'old*' -type d -exec rm -rf {} +
-            echo "✅ Pastas 'old*' removidas"
-          else
-            echo "✅ Nenhuma pasta 'old*' encontrada - deploy limpo!"
-          fi
-          
-          echo "✅ Deploy concluído - apenas uploads preservados"
+
+            # 2. Apagar todo o conteúdo atual do diretório
+            echo "🗑️ Apagando todo o conteúdo do diretório atual..."
+            # O '.' no final garante que todos os arquivos e diretórios, incluindo ocultos, sejam removidos.
+            rm -rf ./* .* 2>/dev/null || true
+            echo "✅ Diretório limpo."
+          SCRIPT_AFTER: |
+            cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1
+            echo "🔄 Restaurando uploads e ajustando permissões..."
+
+            # 3. Restaurar a pasta de uploads para o novo diretório wp-content
+            if [ -d "/tmp/uploads-backup/uploads" ]; then
+              echo "📁 Restaurando 'wp-content/uploads'..."
+              # Garante que a pasta wp-content exista para receber os uploads
+              mkdir -p wp-content
+              mv /tmp/uploads-backup/uploads wp-content/
+              echo "✅ 'uploads' restaurado com sucesso."
+              # Limpar o backup temporário
+              rm -rf /tmp/uploads-backup
+              echo "🗑️ Backup temporário removido."
+            else
+              echo "⚠️ Nenhum backup de uploads encontrado para restaurar."
+            fi
+
+            # 4. Ajustar permissões para segurança
+            echo "🔐 Ajustando permissões dos arquivos..."
+            # Permissões para diretórios (755) e arquivos (644)
+            find . -type d -exec chmod 755 {} \;
+            find . -type f -exec chmod 644 {} \;
+            echo "✅ Permissões ajustadas."
+
+            echo "🚀 Deploy concluído com sucesso!"
