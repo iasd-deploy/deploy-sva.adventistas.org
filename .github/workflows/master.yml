@@ -47,6 +47,7 @@ jobs:
         TARGET: "/home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1"
         EXCLUDE: "/dist/, /node_modules/"
         BACKUP: false
+        REMOVE_OLD_FILES: true
         SCRIPT_BEFORE: |
           cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1
           echo "🧹 Limpando TUDO do diretório html..."
@@ -61,10 +62,28 @@ jobs:
             echo "⚠️ Diretório wp-content/uploads não encontrado"
           fi
           
-          # APAGAR TUDO do diretório atual
-          echo "🗑️ Apagando TUDO do diretório html..."
-          rm -rf *
-          rm -rf .*
+          # APAGAR TUDO do diretório atual (SEM EXCEÇÃO)
+          echo "🗑️ APAGANDO TUDO do diretório html..."
+          
+          # Listar o que existe antes de apagar
+          echo "📋 Conteúdo atual do diretório:"
+          ls -la
+          
+          # Remover TUDO (arquivos, pastas, ocultos, qualquer coisa)
+          echo "🧹 Removendo TUDO..."
+          rm -rf .* * 2>/dev/null || echo "Remoção executada"
+          
+          # Verificar se realmente está vazio
+          if [ "$(ls -A)" ]; then
+            echo "⚠️ Ainda há conteúdo, forçando remoção total..."
+            # Comando mais agressivo
+            find . -mindepth 1 -exec rm -rf {} + 2>/dev/null || echo "Remoção forçada executada"
+          fi
+          
+          # Verificação final
+          echo "🔍 Verificação final - diretório deve estar vazio:"
+          ls -la
+          
           echo "✅ Diretório html completamente limpo"
           
           # Recriar estrutura básica
@@ -94,5 +113,9 @@ jobs:
           find wp-content -type d -exec chmod 755 {} \;
           find wp-content -type f -exec chmod 644 {} \;
           chmod 755 wp-content
+          
+          # Verificação final - garantir que não há resíduos
+          echo "🔍 Verificação final - diretório deve conter apenas WordPress + uploads:"
+          ls -la
           
           echo "✅ Deploy concluído - apenas uploads preservados"
