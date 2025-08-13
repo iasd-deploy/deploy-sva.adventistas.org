@@ -31,25 +31,25 @@ jobs:
 
         echo "End transform: wp-config.php"
 
-    - name: 🧹 Smart Clean Server Directory
-      run: |
-        echo "🧹 Preparing smart cleaning strategy..."
-        echo "This step will be executed on the server during deploy"
+    - name: 📤 Upload Files to Server
+      uses: appleboy/scp-action@v0.1.7
+      with:
+        host: ${{ secrets.FTP_HOST }}
+        port: 65002
+        username: ${{ secrets.FTP_USER }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        source: "./app/*"
+        target: "/tmp/wordpress-deploy/"
+        strip_components: 0
 
     - name: 🚀 Smart Deploy to Server
-      uses: easingthemes/ssh-deploy@main
+      uses: appleboy/ssh-action@v1.0.3
       with:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        SOURCE: "./app/"
-        REMOTE_HOST: ${{ secrets.FTP_HOST }}
-        REMOTE_PORT: 65002
-        REMOTE_USER: ${{ secrets.FTP_USER }}
-        TARGET: "/home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1"
-        EXCLUDE: "/dist/, /node_modules/"
-        BACKUP: false
-        REMOVE_OLD_FILES: true
-        STRIP_COMPONENTS: 0
-        SCRIPT_BEFORE: |
+        host: ${{ secrets.FTP_HOST }}
+        port: 65002
+        username: ${{ secrets.FTP_USER }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        script: |
           cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1
           echo "🧹 Limpando TUDO do diretório html..."
           
@@ -102,12 +102,10 @@ jobs:
           
           echo "✅ Diretório html completamente limpo"
           
-          # Recriar estrutura básica
-          echo "📁 Recriando estrutura básica..."
-          mkdir -p wp-content
-          echo "✅ Estrutura básica recriada"
-        SCRIPT_AFTER: |
-          cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1
+          echo "🔄 Copiando arquivos do diretório temporário..."
+          cp -r /tmp/wordpress-deploy/* ./
+          echo "✅ Arquivos copiados com sucesso"
+          
           echo "🔄 Restaurando uploads preservados..."
           
           # Restaurar APENAS os uploads
@@ -123,6 +121,10 @@ jobs:
           else
             echo "⚠️ Nenhum backup de uploads encontrado"
           fi
+          
+          # Limpar diretório temporário de deploy
+          rm -rf /tmp/wordpress-deploy
+          echo "🗑️ Diretório temporário de deploy removido"
           
           # Ajustar permissões
           echo "🔐 Ajustando permissões dos arquivos..."
