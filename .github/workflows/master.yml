@@ -32,16 +32,21 @@ jobs:
         echo "End transform: wp-config.php"
 
     - name: 🧹 Smart Clean Server Directory
+      run: |
+        echo "🧹 Preparing smart cleaning strategy..."
+        echo "This step will be executed on the server during deploy"
+
+    - name: 🚀 Smart Deploy to Server
       uses: easingthemes/ssh-deploy@main
       with:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        SOURCE: "./"
+        SOURCE: "./app/"
         REMOTE_HOST: ${{ secrets.FTP_HOST }}
         REMOTE_PORT: 65002
         REMOTE_USER: ${{ secrets.FTP_USER }}
         TARGET: "/home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1"
-        EXCLUDE: "/dist/, /node_modules/, /app/"
-        SCRIPT_AFTER: |
+        EXCLUDE: "/dist/, /node_modules/"
+        SCRIPT_BEFORE: |
           cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1
           echo "🧹 Smart cleaning directory before deploy..."
           
@@ -88,17 +93,6 @@ jobs:
           fi
           
           echo "✅ Smart cleaning completed - user data preserved"
-
-    - name: Deploy to Server - SSH
-      uses: easingthemes/ssh-deploy@main
-      with:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        SOURCE: "./app/"
-        REMOTE_HOST: ${{ secrets.FTP_HOST }}
-        REMOTE_PORT: 65002
-        REMOTE_USER: ${{ secrets.FTP_USER }}
-        TARGET: "/home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1"
-        EXCLUDE: "/dist/, /node_modules/"
         SCRIPT_AFTER: |
           cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1
           echo "🔄 Restoring preserved user data..."
@@ -129,5 +123,9 @@ jobs:
           find wp-content -type d -exec chmod 755 {} \;
           find wp-content -type f -exec chmod 644 {} \;
           chmod 755 wp-content
+          
+          # Remover qualquer pasta old-* que possa ter sido criada
+          echo "🧹 Removing any old-* directories..."
+          find . -maxdepth 1 -name "old-*" -type d -exec rm -rf {} + 2>/dev/null || echo "No old directories found"
           
           echo "✅ Deploy completed with user data restored"
