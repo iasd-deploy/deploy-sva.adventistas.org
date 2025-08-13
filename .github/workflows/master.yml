@@ -31,7 +31,7 @@ jobs:
 
         echo "End transform: wp-config.php"
 
-    - name: 🧹 Clean Server Directory
+    - name: 🧹 Smart Clean Server Directory
       uses: easingthemes/ssh-deploy@main
       with:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
@@ -43,9 +43,51 @@ jobs:
         EXCLUDE: "/dist/, /node_modules/, /app/"
         SCRIPT_AFTER: |
           cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1
-          echo "🧹 Cleaning directory before deploy..."
+          echo "🧹 Smart cleaning directory before deploy..."
+          
+          # Preservar wp-content/uploads (arquivos de mídia)
+          if [ -d "wp-content/uploads" ]; then
+            echo "📁 Preserving wp-content/uploads (user media files)"
+            mkdir -p /tmp/wp-content-backup/uploads
+            cp -r wp-content/uploads/* /tmp/wp-content-backup/uploads/
+          fi
+          
+          # Preservar cache se existir
+          if [ -d "wp-content/cache" ]; then
+            echo "⚡ Preserving wp-content/cache"
+            mkdir -p /tmp/wp-content-backup/cache
+            cp -r wp-content/cache/* /tmp/wp-content-backup/cache/
+          fi
+          
+          # Preservar backups se existir
+          if [ -d "wp-content/backup" ]; then
+            echo "💾 Preserving wp-content/backup"
+            mkdir -p /tmp/wp-content-backup/backup
+            cp -r wp-content/backup/* /tmp/wp-content-backup/backup/
+          fi
+          
+          # Limpar diretório principal (exceto wp-content)
+          echo "🗑️ Removing old files (preserving wp-content structure)"
           find . -mindepth 1 -maxdepth 1 ! -name 'wp-content' -exec rm -rf {} +
-          echo "✅ Directory cleaned successfully - only wp-content preserved"
+          
+          # Limpar wp-content (exceto uploads, cache, backup)
+          if [ -d "wp-content" ]; then
+            echo "🧹 Cleaning wp-content (preserving user data)"
+            cd wp-content
+            
+            # Remover apenas diretórios que serão atualizados
+            rm -rf themes plugins languages mu-plugins
+            
+            # Remover arquivos de cache que serão recriados
+            rm -f advanced-cache.php wp-cache-config.php
+            
+            # Remover diretório de upgrade (temporário)
+            rm -rf upgrade
+            
+            cd ..
+          fi
+          
+          echo "✅ Smart cleaning completed - user data preserved"
 
     - name: Deploy to Server - SSH
       uses: easingthemes/ssh-deploy@main
@@ -57,3 +99,35 @@ jobs:
         REMOTE_USER: ${{ secrets.FTP_USER }}
         TARGET: "/home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1"
         EXCLUDE: "/dist/, /node_modules/"
+        SCRIPT_AFTER: |
+          cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1
+          echo "🔄 Restoring preserved user data..."
+          
+          # Restaurar uploads se existir backup
+          if [ -d "/tmp/wp-content-backup/uploads" ]; then
+            echo "📁 Restoring wp-content/uploads"
+            cp -r /tmp/wp-content-backup/uploads/* wp-content/uploads/ 2>/dev/null || echo "No uploads to restore"
+          fi
+          
+          # Restaurar cache se existir backup
+          if [ -d "/tmp/wp-content-backup/cache" ]; then
+            echo "⚡ Restoring wp-content/cache"
+            cp -r /tmp/wp-content-backup/cache/* wp-content/cache/ 2>/dev/null || echo "No cache to restore"
+          fi
+          
+          # Restaurar backups se existir backup
+          if [ -d "/tmp/wp-content-backup/backup" ]; then
+            echo "💾 Restoring wp-content/backup"
+            cp -r /tmp/wp-content-backup/backup/* wp-content/backup/ 2>/dev/null || echo "No backup to restore"
+          fi
+          
+          # Limpar backup temporário
+          rm -rf /tmp/wp-content-backup
+          
+          # Ajustar permissões
+          echo "🔐 Adjusting file permissions..."
+          find wp-content -type d -exec chmod 755 {} \;
+          find wp-content -type f -exec chmod 644 {} \;
+          chmod 755 wp-content
+          
+          echo "✅ Deploy completed with user data restored"
