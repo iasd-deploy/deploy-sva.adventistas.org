@@ -48,6 +48,7 @@ jobs:
         EXCLUDE: "/dist/, /node_modules/"
         BACKUP: false
         REMOVE_OLD_FILES: true
+        STRIP_COMPONENTS: 0
         SCRIPT_BEFORE: |
           cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1
           echo "🧹 Limpando TUDO do diretório html..."
@@ -65,12 +66,27 @@ jobs:
           # APAGAR TUDO do diretório atual (SEM EXCEÇÃO)
           echo "🗑️ APAGANDO TUDO do diretório html..."
           
+          # Forçar remoção de pastas que começam com 'old' primeiro
+          echo "🧹 Removendo especificamente pastas 'old*'..."
+          for item in * .*; do
+            if [[ "$item" == old* ]]; then
+              echo "⚠️ Encontrada pasta/arquivo 'old*': $item - REMOVENDO..."
+              rm -rf "$item" 2>/dev/null || echo "Removido: $item"
+            fi
+          done
+          
           # Listar o que existe antes de apagar
           echo "📋 Conteúdo atual do diretório:"
           ls -la
           
           # Remover TUDO (arquivos, pastas, ocultos, qualquer coisa)
           echo "🧹 Removendo TUDO..."
+          
+          # Comando específico para pastas 'old*'
+          echo "🔍 Procurando e removendo pastas 'old*'..."
+          find . -maxdepth 1 -name "old*" -exec rm -rf {} + 2>/dev/null || echo "Nenhuma pasta old* encontrada"
+          
+          # Remover tudo o resto
           rm -rf .* * 2>/dev/null || echo "Remoção executada"
           
           # Verificar se realmente está vazio
@@ -117,5 +133,17 @@ jobs:
           # Verificação final - garantir que não há resíduos
           echo "🔍 Verificação final - diretório deve conter apenas WordPress + uploads:"
           ls -la
+          
+          # Verificação específica para pastas 'old*'
+          echo "🧹 Verificação final - procurando pastas 'old*'..."
+          if [ "$(find . -maxdepth 1 -name 'old*' -type d)" ]; then
+            echo "⚠️ ATENÇÃO: Pastas 'old*' encontradas após deploy!"
+            find . -maxdepth 1 -name 'old*' -type d -exec ls -la {} \;
+            echo "🗑️ Removendo pastas 'old*' encontradas..."
+            find . -maxdepth 1 -name 'old*' -type d -exec rm -rf {} +
+            echo "✅ Pastas 'old*' removidas"
+          else
+            echo "✅ Nenhuma pasta 'old*' encontrada - deploy limpo!"
+          fi
           
           echo "✅ Deploy concluído - apenas uploads preservados"
