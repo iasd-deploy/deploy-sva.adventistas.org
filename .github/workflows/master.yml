@@ -44,13 +44,13 @@ jobs:
         REMOTE_HOST: ${{ secrets.FTP_HOST }}
         REMOTE_PORT: 65002
         REMOTE_USER: ${{ secrets.FTP_USER }}
-        TARGET: "/home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1"
+        TARGET: "/home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html"
         EXCLUDE: "/dist/, /node_modules/"
         BACKUP: false
         REMOVE_OLD_FILES: true
         STRIP_COMPONENTS: 0
         SCRIPT_BEFORE: |
-          cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1
+          cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html
           echo "🧹 Limpando TUDO do diretório html..."
           
           # Preservar APENAS os uploads (arquivos de mídia dos usuários)
@@ -107,7 +107,7 @@ jobs:
           mkdir -p wp-content
           echo "✅ Estrutura básica recriada"
         SCRIPT_AFTER: |
-          cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html1
+          cd /home/${{ secrets.FTP_USER }}/domains/sva.adventistas.org/public_html
           echo "🔄 Restaurando uploads preservados..."
           
           # Restaurar APENAS os uploads
