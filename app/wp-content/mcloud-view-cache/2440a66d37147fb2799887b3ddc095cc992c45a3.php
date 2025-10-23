@@ -1,0 +1,3 @@
+<?php /** @var \MediaCloud\Plugin\Wizard\Config\Field $field */?>
+<input type="hidden" name="<?php echo e($field->name()); ?>" value="<?php echo e($field->defaultValue()); ?>">
+<?php /**PATH /Users/clecyo.freitas/Documents/Dev_DSA/deploy-comunica.spa.adventistas.org/wp-content/plugins/ilab-media-tools/views/wizard/steps/form-fields/hidden.blade.php ENDPATH**/ ?>

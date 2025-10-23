@@ -1,0 +1,1 @@
+<p>Provide your Minio credentials.  Clicking on <strong>Next</strong> will verify your settings.</p><?php /**PATH /Users/clecyo.freitas/Documents/Dev_DSA/deploy-comunica.spa.adventistas.org/wp-content/plugins/ilab-media-tools/views/wizard/cloud-storage/providers/minio/form.blade.php ENDPATH**/ ?>

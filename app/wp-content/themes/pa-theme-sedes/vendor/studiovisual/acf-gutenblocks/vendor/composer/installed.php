@@ -1,0 +1,93 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(
+            0 => '0.4.x-dev',
+        ),
+        'reference' => '0583c3277cc874cff67fdd4fbf2992a480fc410b',
+        'name' => 'studiovisual/acf-gutenblocks',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'automattic/vipwpcs' => array(
+            'pretty_version' => '0.4.0',
+            'version' => '0.4.0.0',
+            'type' => 'phpcodesniffer-standard',
+            'install_path' => __DIR__ . '/../automattic/vipwpcs',
+            'aliases' => array(),
+            'reference' => '423dd6d34ad3085a3de155603551043e81545ab1',
+            'dev_requirement' => true,
+        ),
+        'composer/installers' => array(
+            'pretty_version' => 'v1.11.0',
+            'version' => '1.11.0.0',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/./installers',
+            'aliases' => array(),
+            'reference' => 'ae03311f45dfe194412081526be2e003960df74b',
+            'dev_requirement' => false,
+        ),
+        'itinerisltd/itineris-wp-coding-standards' => array(
+            'pretty_version' => '0.2.3',
+            'version' => '0.2.3.0',
+            'type' => 'phpcodesniffer-standard',
+            'install_path' => __DIR__ . '/../itinerisltd/itineris-wp-coding-standards',
+            'aliases' => array(),
+            'reference' => 'c05dded85189abbf374b3ea61b154a0a21cd25e6',
+            'dev_requirement' => true,
+        ),
+        'roave/security-advisories' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'metapackage',
+            'install_path' => NULL,
+            'aliases' => array(),
+            'reference' => '6da216d969efa7e52cc7d0af125b8c8bb9caed25',
+            'dev_requirement' => true,
+        ),
+        'roundcube/plugin-installer' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'shama/baton' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
+        'squizlabs/php_codesniffer' => array(
+            'pretty_version' => '3.6.0',
+            'version' => '3.6.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
+            'aliases' => array(),
+            'reference' => 'ffced0d2c8fa8e6cdc4d695a743271fab6c38625',
+            'dev_requirement' => true,
+        ),
+        'studiovisual/acf-gutenblocks' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(
+                0 => '0.4.x-dev',
+            ),
+            'reference' => '0583c3277cc874cff67fdd4fbf2992a480fc410b',
+            'dev_requirement' => false,
+        ),
+        'wp-coding-standards/wpcs' => array(
+            'pretty_version' => '1.2.1',
+            'version' => '1.2.1.0',
+            'type' => 'phpcodesniffer-standard',
+            'install_path' => __DIR__ . '/../wp-coding-standards/wpcs',
+            'aliases' => array(),
+            'reference' => 'f328bcafd97377e8e5e5d7b244d5ddbf301a3a5c',
+            'dev_requirement' => true,
+        ),
+    ),
+);

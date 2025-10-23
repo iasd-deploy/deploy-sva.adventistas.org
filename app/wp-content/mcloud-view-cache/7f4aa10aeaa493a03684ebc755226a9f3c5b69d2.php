@@ -1,0 +1,1 @@
+<p>Media Cloud will now run a series of tests to verify that Media Cloud can access your cloud storage provider and that everything is setup correctly.</p><?php /**PATH /Users/clecyo.freitas/Documents/Dev_DSA/deploy-comunica.spa.adventistas.org/wp-content/plugins/ilab-media-tools/views/wizard/cloud-storage/providers/dreamhost/test.blade.php ENDPATH**/ ?>

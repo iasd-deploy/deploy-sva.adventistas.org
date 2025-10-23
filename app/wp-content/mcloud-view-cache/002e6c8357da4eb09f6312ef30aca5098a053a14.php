@@ -1,0 +1,2 @@
+<h1>Choose Your Storage Provider</h1>
+<?php /**PATH /Users/clecyo.freitas/Documents/Dev_DSA/deploy-comunica.spa.adventistas.org/wp-content/plugins/ilab-media-tools/views/wizard/cloud-storage/intro.blade.php ENDPATH**/ ?>

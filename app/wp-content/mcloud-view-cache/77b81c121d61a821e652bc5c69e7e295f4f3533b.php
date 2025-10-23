@@ -1,0 +1,1 @@
+<p>To finish up, we'll run a quick test to make sure everything is working correctly.</p><?php /**PATH /Users/clecyo.freitas/Documents/Dev_DSA/deploy-comunica.spa.adventistas.org/wp-content/plugins/ilab-media-tools/views/wizard/imgix/test.blade.php ENDPATH**/ ?>

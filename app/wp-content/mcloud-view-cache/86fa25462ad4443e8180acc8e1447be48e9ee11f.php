@@ -1,0 +1,1 @@
+DigitalOcean spaces is a solid choice and perhaps the easiest to setup.<?php /**PATH /Users/clecyo.freitas/Documents/Dev_DSA/deploy-comunica.spa.adventistas.org/wp-content/plugins/ilab-media-tools/views/wizard/cloud-storage/providers/do/description.blade.php ENDPATH**/ ?>

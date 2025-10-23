@@ -1,91 +1,97 @@
 <?php
-
-//Begin Really Simple SSL session cookie settings
-@ini_set('session.cookie_httponly', true);
-@ini_set('session.cookie_secure', true);
-@ini_set('session.use_only_cookies', true);
-//END Really Simple SSL
 /**
  * The base configuration for WordPress
  *
- * The wp-config.php creation script uses this file during the
- * installation. You don't have to use the web site, you can
- * copy this file to "wp-config.php" and fill in the values.
+ * The wp-config.php creation script uses this file during the installation.
+ * You don't have to use the website, you can copy this file to "wp-config.php"
+ * and fill in the values.
  *
  * This file contains the following configurations:
  *
- * * MySQL settings
+ * * Database settings
  * * Secret keys
  * * Database table prefix
  * * ABSPATH
  *
- * @link https://wordpress.org/support/article/editing-wp-config-php/
+ * @link https://wordpress.org/documentation/article/editing-wp-config-php/
  *
  * @package WordPress
  */
-// ** MySQL settings - You can get this info from your web host ** //
+
+$_SERVER['HTTPS'] = 'on';
+// ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'WP_DB_NAME');
+define( 'DB_NAME', $_ENV['WP_DB_NAME']);
 
 /** MySQL database username */
-define( 'DB_USER', 'WP_DB_USER');
+define( 'DB_USER', $_ENV['WP_DB_USER']);
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'WP_DB_PASSWORD');
+define( 'DB_PASSWORD', $_ENV['WP_DB_PASSWORD']);
 
 /** MySQL hostname */
-define( 'DB_HOST', 'WP_DB_HOST');
+define( 'DB_HOST', $_ENV['WP_DB_HOST'] . ':3306');
 
-/** Database Charset to use in creating database tables. */
+/** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
 
-/** The Database Collate type. Don't change this if in doubt. */
+/** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-define( 'AS3CF_SETTINGS', serialize( array(
-	'provider' => 'aws',
-	'access-key-id' => 'WP_S3_ACCESS_KEY',
-	'secret-access-key' => 'WP_S3_SECRET_KEY',
-	'bucket' => 'WP_S3_BUCKET',
-	'enable-delivery-domain' => true,
-	'delivery-domain' => 'files.adventistas.org'
-) ) );
-
-define( 'FORCE_SSL', true );
-define( 'FORCE_SSL_ADMIN',true );
-$_SERVER['HTTPS']='on';
-
-
-/**
- * Authentication Unique Keys and Salts.
+/**#@+
+ * Authentication unique keys and salts.
  *
- * Change these to different unique phrases!
- * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
- * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
+ * Change these to different unique phrases! You can generate these using
+ * the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}.
+ *
+ * You can change these at any point in time to invalidate all existing cookies.
+ * This will force all users to have to log in again.
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',          '`Vx:h|veSHrn#!xB3|0l4y)bR;CY&}Q bLl/>]D]]Xc]HBP:?6A:OOX)*g=,-leu' );
-define( 'SECURE_AUTH_KEY',   'm7Ush%WJt)Dd{Z4K];Lxzi{_aE}B,MlrZE7CVb^2;TYkTNzeM]8f8E!w|X0^h-&P' );
-define( 'LOGGED_IN_KEY',     '0(60oxw*-;TDnYhP[*.M:r6jSYZ$mMUJ7hQ.a*w.^y<@>Me,,&C?K2L^=i8,Yw}E' );
-define( 'NONCE_KEY',         'JUaG= vYj$|e2R;~w>M-L?2AqF:UXG+8L<F1jw?a]ul8s5}#%Rq+3Z{CQ|Q<X|Aa' );
-define( 'AUTH_SALT',         'C.hvw6t0cWul2KeIP7M[O*w 8,7BfWlNBK`g09Y*~qzB;;lxKyFUmKh-D%@}SF7X' );
-define( 'SECURE_AUTH_SALT',  'eR%@@H&:;)@_vOp-vQ)brSKitSOR~#{5VEVd~ FesM^j0Y5u@T8i/lyN-Idc7=<O' );
-define( 'LOGGED_IN_SALT',    'HU/qZqzD8te/v4t}qr}B}+:-YpN}zR!GCa!U^NIIa(g].o:?2a3DuN/Oe TkWu%1' );
-define( 'NONCE_SALT',        '/83$jb;p1 5_Ir MR-<d Y }{rXD*d(EohZ.02x-pV()pjaVBacoKQjG uF=P0hO' );
-define( 'WP_CACHE_KEY_SALT', '&=u[V+XPez%Tl6Z4%3Wkt@JrggvZzHLeB|L>lrbo}m09.;*3PG^&pPgja!4Oq}CI' );
+define( 'AUTH_KEY',         'f;8:6&Liqo:^V(86<y]L[Id=I~)YZ@IQl1QSXTTuPHL^Ds6sYAM<!B>u{5 _eT.S' );
+define( 'SECURE_AUTH_KEY',  '@F!;WRNcV5wV.GU>SYdEV!3;_`r4p}iV}_CWE;mStP?r)<`&4.RvT-9(n]4lmOtb' );
+define( 'LOGGED_IN_KEY',    '~2[Ob(N~Oj^v7Sesnfo,(Y8?3iUU!tt<P3,sNYdjgBi3/?0a0vJEoBC(T!WQ+lxv' );
+define( 'NONCE_KEY',        'hcp)FFN:=uE;6f<2n_p}CFY_XR p8|x`NwZk$&Ng:Sz ;f~zeOlB5GUahDwK9yC?' );
+define( 'AUTH_SALT',        'P.ph1yTU/Xm*]YBHh5} |%s2z+N,<LRGR)#b$VxZ!xLZZ(`3*E8E:cf 84c4#6$0' );
+define( 'SECURE_AUTH_SALT', '6/Ve#i_I){8G(9KH|G-bz<kHZz9EfkKt:2ChGJQ)};Ed4Zx^lQ$O/h=0TS]Mal,4' );
+define( 'LOGGED_IN_SALT',   '9]y.gx}4wnSLmInoy~8g.-ydE}i<z.m|GOTA?1)<E*hfM2.OkV]Um?C.9~Hq_ZhI' );
+define( 'NONCE_SALT',       'omGkL9YXh#)v!Nz-Hd*5{+g,!a0q$uu!}`R{My[|vrH*yjj|~*ATLlhzt.5v>{l,' );
+
+/**#@-*/
+
 /**
- * WordPress Database Table prefix.
+ * WordPress database table prefix.
  *
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix = 'wp_';
-define( 'WP_SITEURL', 'https://sva.adventistas.org/' );
+
+/**
+ * For developers: WordPress debugging mode.
+ *
+ * Change this to true to enable the display of notices during development.
+ * It is strongly recommended that plugin and theme developers use WP_DEBUG
+ * in their development environments.
+ *
+ * For information on other constants that can be used for debugging,
+ * visit the documentation.
+ *
+ * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
+ */
+define( 'WP_DEBUG', false );
+
+/* Add any custom values between this line and the "stop editing" line. */
+
+
+
 /* That's all, stop editing! Happy publishing. */
+
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', dirname(__FILE__) . '/' );
+	define( 'ABSPATH', __DIR__ . '/' );
 }
+
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
